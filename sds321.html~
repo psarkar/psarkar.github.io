@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="Wed, 21 Jan 2015 05:15:16 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title></title>
+    
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Other</title>
+
+
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+</head>
+
+
+
+<body>
+
+<div id="header">
+<h1>Purnamrita Sarkar</h1>
+
+<div id="menu">
+<ul id="nav">
+
+  <li><a href="index.html">Home</a></li>
+
+  <li></li>
+
+  <li><a href="Research1.html">Research</a></li>
+
+  <li><a href="teaching.html">Teaching<span style="font-weight: bold;"></span></a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+<div id="content">
+<div style="color: rgb(0, 0, 0);" id="right">
+<h2><a name="3"></a>SDS321: Introduction to Probability and Statistics</h2>
+<br />
+The course syllabus can be found <a href="sds321/syllabus.pdf"><span style="font-weight: bold;">here. </span> </a><br />
+<br/>
+
+
+The office hours are Tuesdays 11:30-12:30 at GDC 7.306.
+<br/>
+
+<br />
+The course textbook is by Dimitri Bertsekas and John Tsitsiklis. Introduction to Probability. 2nd ed. Athena Scientific, 2008. ISBN: 978188652923. 
+The first chapter is available online <a href="http://www.athenasc.com/Prob-2nd-Ch1.pdf"><span style="font-weight: bold;">here. </span> </a>
+An excellent resource is the lecture notes and videos available <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/download-course-materials/"><span style="font-weight: bold;">here. </span> </a>
+
+ We will also follow Sheldon Ross's A First Course in Probability (edition 8th) for some worked out problems.
+
+<br/>
+<br/>
+
+<span style="font-weight: bold;">Lecture notes </span><br />
+
+<br/>
+
+<span style="font-weight: bold;">01/19 </span>: Overview, logistics, and axioms of probability. <a href="sds321/lecture1-ps.pdf"> [Slides] </a>. Quiz can be found <a href="sds321/m1.pdf"> [Here] </a>  <br />
+
+<br/>
+<span style="font-weight: bold;">01/21 </span>: Axioms of probability and Conditional probability. <a href="sds321/lecture2-ps.pdf"> [Slides] </a>. Readings 1.1-1.3 of B/T.  <br/>
+<br/>
+
+<span style="font-weight: bold;">01/26 </span>: Conditional probability. <a href="sds321/lecture3-ps.pdf"> [Slides] </a> <br/>
+<br/>
+
+<span style="font-weight: bold;">01/28 </span>: Bayes rule. <a href="sds321/lecture4-ps.pdf"> [Slides] </a> <br/>
+<br/>
+
+<span style="font-weight: bold;">02/02 </span>: Statistical independence. <a href="sds321/lecture5-ps.pdf"> [Slides] </a> <br/>
+<br/>
+<span style="font-weight: bold;">02/04 </span>: Conditional independence and intro to counting. <a href="sds321/lecture6-ps.pdf"> [Slides] </a> <br/>
+<br/>
+<span style="font-weight: bold;">02/09 </span>: Counting 2. <a href="sds321/lecture7-ps.pdf"> [Slides] </a> <br/>
+<br/>
+
+<span style="font-weight: bold;">02/11 </span>: Counting 2.0.1 and discrete random variables. <a href="sds321/lecture8-ps.pdf"> [Slides] </a> <br/>
+<br/>
+
+<span style="font-weight: bold;">02/16 </span>: Discrete random variables- last lecture contd.<a href="sds321/lecture8-ps.pdf"> [Slides: read upto-page 21] </a> <br/>
+<br/>
+
+<span style="font-weight: bold;">02/18 </span>: Expectation and variance <a href="sds321/lecture10-ps.pdf"> [Slides] </a> <br/>
+<br/>
+
+<span style="font-weight: bold;">02/22 </span>: Expectation and variance <a href="sds321/lecture10a-ps.pdf"> [Slides] </a> <br/>
+<br/>
+
+<span style="font-weight: bold;">02/28 </span>: Review for midterm <a href="sds321/review1.pdf"> [Slides] </a> <br/>
+<br/>
+
+<span style="font-weight: bold;">03/2 </span>: Midterm I  <br/>
+<br/>
+
+<span style="font-weight: bold;">03/7 and 03/9 </span>: Joint distributions, conditional PMF and Independence <a href="sds321/lecture13-ps.pdf"> [Slides] </a> <br/>
+<br/>
+
+<span style="font-weight: bold;">03/21 </span>: Continuous random variables- introduction <a href="sds321/continuous_RV1.pdf"> [Slides] </a> <br/>
+<br/>
+
+
+<span style="font-weight: bold;">03/23 </span>: Continuous random variables- Uniform, Exponential, Normal<a href="sds321/CRV_exp_normal.pdf"> [Slides] </a> <br/>
+<br/>
+
+<span style="font-weight: bold;">03/28 </span>: Continuous random variables- Standardization, Joint PDF <a href="sds321/CRV_joint_pdf.pdf"> [Slides] </a> <br/>
+<br/>
+
+
+<span style="font-weight: bold;">03/30 </span>: Continuous random variables- Conditional PDF, Bayes Rule <a href="sds321/CRV_conditional_pdf.pdf"> [Slides] </a> <br/>
+<br/>
+<span style="font-weight: bold;">04/5 </span>: Continuous random variables- Conditional expectation, Independence,  <a href="sds321/lecture18-new.pdf"> [Slides] </a> <br/>
+<br/>
+
+<span style="font-weight: bold;">04/7 </span>: Continuous random variables- Independence, Covariance and correlation, Function of R.V's <a href="sds321/lecture19-new.pdf"> [Slides] </a> <br/>
+<br/>
+
+
+<span style="font-weight: bold;">04/9 </span>: Continuous random variables- Review <a href="sds321/lecture20-practice.pdf"> [Slides] </a> <br/>
+<br/>
+
+<span style="font-weight: bold;">04/18 </span>: Continuous random variables- Derived distributions and functions of two random variables <a href="sds321/lecture21-new.pdf"> [Slides] </a> <br/>
+<br/>
+
+
+<span style="font-weight: bold;">04/20 </span>: Continuous random variables- Functions of two random variables, conditional expectation and starting Statistics <a href="sds321/lecture22-new.pdf"> [Slides] </a> <br/>
+<br/>
+
+<span style="font-weight: bold;">04/25 </span>: Statistics: Central Limit Theorem <a href="sds321/lecture23-new.pdf"> [Slides] </a> <br/>
+<br/>
+
+<span style="font-weight: bold;">04/27 </span>: Statistics: Maximum Likelihood estimation <a href="sds321/lecture24-new.pdf"> [Slides] </a> <br/>
+<br/>
+
+<span style="font-weight: bold;">05/2 </span>: Statistics: Maximum Likelihood estimation completed and confidence intervals <a href="sds321/lecture25.pdf"> [Slides] </a> <br/>
+<br/>
+
+<span style="font-weight: bold;">05/4 </span>: Statistics: Significance testing <a href="sds321/lecture26.pdf"> [Slides] </a> <br/>
+<br/>
+
+<!---
+<span style="font-weight: bold;">03/08 </span>: Continuous random variables-CDF, Mean, Variance, Uniform, Exponential <a href="sds321/lecture14-ps.pdf"> [Slides] </a> <br/>
+<br/>
+<span style="font-weight: bold;">03/10 </span>: Continuous random variables- Normal, Joint distribution, Conditional pdf<a href="sds321/lecture15-ps.pdf"> [Slides] </a> <br/>
+<br/>
+<span style="font-weight: bold;">03/23 </span>: Continuous random variables- Joint distribution, Conditional pdf<a href="sds321/lecture16-ps.pdf"> [Slides] </a> <br/>
+<br/>
+<span style="font-weight: bold;">03/25 </span>: Continuous random variables- Joint distribution, Conditional expectation, derived distributions<a href="sds321/lecture17-ps.pdf"> [Slides] </a> <br/>
+<br/>
+<span style="font-weight: bold;">03/30 </span>: Continuous random variables- Joint distribution, derived distributions, convolution<a href="sds321/lecture18-ps.pdf"> [Slides] </a> <br/>
+<br/>
+<span style="font-weight: bold;">04/1 </span>: Practice problems <a href="sds321/lecture19-ps.pdf"> [Slides] </a> <br/>
+<br/>
+<span style="font-weight: bold;">04/7 </span>: Continuous random variables- covariance and correlation <a href="sds321/lecture20-ps.pdf"> [Slides] </a> <br/>
+<br/>
+<span style="font-weight: bold;">04/12 </span>: Conditional expectation as a R.V. <a href="sds321/lecture21-ps.pdf"> [Slides] </a> <br/>
+<br/>
+<span style="font-weight: bold;">04/14 </span>: Finish up conditional variance and talk about inequalities, WLLN and CLT <a href="sds321/lecture22-ps.pdf"> [Slides] </a> <br/>
+<br/>
+<span style="font-weight: bold;">04/19 </span>:  Weak Law of Large numbers and Central Limit Theorem <a href="sds321/lecture23-ps.pdf"> [Slides] </a> <br/>
+<br/>
+<span style="font-weight: bold;">04/21 </span>:  Frequentist statistics-MLE  <a href="sds321/lecture24-ps.pdf"> [Slides] </a> <br/>
+<br/>
+<br/>
+<span style="font-weight: bold;">04/26 </span>:  Frequentist statistics-Sample variance, biased, unbiased (finish last lecture) 
+<br/>
+<br/>
+<span style="font-weight: bold;">04/28 </span>:  Frequentist statistics-Confidence invertvals  <a href="sds321/lecture25-ps.pdf"> [Slides] </a> 
+<br/>
+<br/>
+<span style="font-weight: bold;">04/3 </span>:  Frequentist statistics-Significance test begininning and finish last lecture.  <br/>
+<br/>
+<span style="font-weight: bold;">04/5 </span>:  Frequentist statistics-More significance tests <a href="sds321/lecture26-ps.pdf"> [Slides] </a> .  <br/>
+
+<br/>
+<span style="font-weight: bold;">04/9 </span>:  Practice problems <a href="sds321/lecture27-ps.pdf"> [Slides] </a> .  <br/>
+
+<br/>
+-->
+
+<span style="font-weight: bold;">Readings </span><br />
+
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> Set algebra, conditional probability, Bayes' rule, independence 1.1-1.5 (Bertsekas Tsitsiklis) <br/>
+
+
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> Combinatorics: Ross Chapter 1<br/>
+
+
+<br/>
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> Discrete r.v. 2.1-2.2 (Bertsekas-Tsitsiklis)<br/>
+
+<br/>
+
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> Discrete r.v. PMF's of Binomial, Bernoulli and Poisson 2.3 (Bertsekas-Tsitsiklis)<br/>
+
+<br/>
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> Discrete r.v. Expectation and variance 2.4 (Bertsekas-Tsitsiklis)<br/>
+
+<br/>
+
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> Discrete r.v. Joint distributions, conditioning, total expectation theorem 2.5-2.6 (Bertsekas-Tsitsiklis)<br/>
+
+<br/>
+
+
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> Continuous r.v. pdf, cdf, normal distribution, exponential, joint distributions, conditioning, derived distribution 3.1-3.6 (Bertsekas-Tsitsiklis)<br/>
+<br/>
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> Multiple r.v.'s: covariance and correlation  (B-T 4.5), conditional expectation as a r.v. (B-T 4.3-4.4)<br/><br/>
+
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> Markov and Chebyshev inequalities, Weak Law of Large Numbers and the CLT (B-T chapter 5.1-5.4)<br/>
+
+<br/>
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> Maximum Likelihood Estimates, Biased/Unbiased estimators and Confidence intervals (B-T chapter 9.1)<br/>
+<br/>
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> Significance testing (B-T chapter 9.4)<br/>
+
+<!---
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> Convolution 4.2 (Bertsekas-Tsitsiklis)<br/>
+<br/>
+
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> Maximum Likelihood Estimates, Biased/Unbiased estimators and Confidence intervals (B-T chapter 9.1)<br/>
+
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> Significance testing (B-T chapter 9.4)<br/>
+<br/>
+
+<span style="font-weight: bold;">Practice problems--worked out problems from Ross </span><br />
+
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> Basic counting 2a-e, permutations 3a-f, binomial coefficients 4a-c, multinomial coefficients 5a-d, probability and combinatorics chapter 2 5a-l   <br/>
+
+
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> Conditional probability 2a-f, 2h, Bayes' rule 3a-3f, 3k-3n, Independence 4a-4h<br/>
+
+-->
+
+<br/>
+<br/>
+<span style="font-weight: bold;">Practice problems </span><br />
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Homework 2 from last time </span> <a href="sds321/HW2-old-sol.pdf"> OLD HW2 solutions </a>  <br /> <br />
+
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Practice </span> <a href="sds321/practice_midterm.pdf"> midterm </a> and  </span> <a href="sds321/practice_midterm_solutions.pdf">[solutions]</a>  <br /> <br />
+
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Midterm 2015 </span> <a href="sds321/Midterm2015solutions.pdf">solutions</a>. Ignore problem 2 and 3 since they are about continuous distributions. 
+
+<br />
+<br />
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Midterm 2016 </span> <a href="sds321/Midterm2016.pdf">solutions</a>  <br />
+
+
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    Combinatorics </span> practice <a href="sds321/problemset1.pdf">problem set </a> and <a href="sds321/problemset_sol.pdf"> solutions </a>.  
+<br/>
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   MIDTERM 1 </span> <a href="sds321/Midterm1-sol.pdf">solutions</a> and <a href="sds321/histogram1.PNG">Histogram</a>. Mean 20.1, Median 22.25, Standard dev 4.81.  <br />  <br />
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   MIDTERM 2 </span> <a href="sds321/Midterm2-sol.pdf">solutions</a> and <a href="sds321/midterm2-histogram.png">Histogram</a>. Mean 20.6, Median 22, Standard dev 4.5.  <br />  <br />
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Midterm 2 2016 (Leave 4b out. We have not done that yet.) </span> <a href="sds321/midterm2-17.pdf">solutions</a>  1 a) has answer 0.16<br />
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Final 2 2016 - Solve problems 3,4 and 7 </span> <a href="sds321/final2-16.pdf">solutions</a>  <br />
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Continuous R.V. practice </span> <a href="sds321/cont_practice17.pdf">problems</a> and </span> <a href="sds321/cont_practice_sol17.pdf">solutions</a>  <br />
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   How to pattern match <a href="sds321/pattern-match.pdf"> [Here] </a>. Tips and tricks <a href="sds321/sds321_tricks.pdf"> [here] </a><br/>   <br/>   
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Continuous r.v. review  </span> <a href="sds321/prob-review-cont17.pdf"> here </a> .
+<br/><br/>
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span> Discrete and continuous practice problems <a href="sds321/practice_problems2.pdf"> [problems] </a> <a href="sds321/practice_all_solutions.pdf"> [solutions] </a>.<br/>
+<br/>
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Final 1 2016 </span> <a href="sds321/final1-16.pdf"> Here </a> and <a href="sds321/final1-16-sol.pdf"> Solutions</a> <br />
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Final 2 2016 </span> <a href="sds321/final2-16.pdf">solutions</a>  <br />
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Midterm 2-until now review  </span> <a href="sds321/Probstat-review.pdf"> here </a> .
+<br/><br/>
+
+
+<!---
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   MIDTERM 2 </span> <a href="sds321/Midterm2solutions.pdf">solutions</a>  <br />
+<br/>
+
+<span style="font-weight: bold;">Material for the Final </span><br />
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Probability review up until the midterm </span> <a href="sds321/prob-review1.pdf"> [Slides] </a> <br/>
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Continuous r.v. and Statistics review  </span> <a href="sds321/prob-review-all.pdf"> here </a> .
+<br/><br/>
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Work out the continuous random variable questions from last year's midterm </span> <a href="sds321/Midterm2015solutions.pdf">solutions</a>  <br />
+<br/>
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    Continuous </span> Practice <a href="sds321/practice_continuous.pdf">problem set </a> and <a href="sds321/practice_cont_soln.pdf"> solutions </a>.  
+<br/>
+<br/>
+
+
+
+<span style="font-weight: bold;">Tips and tricks (group work), more practice problems and last year's final </span><br />
+
+<br/>
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span> Tips and tricks + group work <a href="sds321/pattern-match.pdf"> [problems] </a> .<br/>
+
+
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span> Last year's final exam and solutions <a href="sds321/Final_PS_sol.pdf"> [problems] </a> .<br/>
+<br/>
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span> Discrete and continuous practice problems <a href="sds321/practice_problems2.pdf"> [problems] </a> <a href="sds321/practice2_solutions.pdf"> [solutions] </a>.<br/>
+<br/>
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span> Statistics practice problems <a href="sds321/practice_final_stat.pdf"> [problems] </a> <a href="sds321/practice_final_stat_solutions.pdf"> [solutions] </a>.<br/>
+<br/>
+
+<br/>
+
+
+
+<br/><br/>
+
+-->
+
+<span style="font-weight: bold;">Homeworks </span><br />
+
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW1-ps.pdf">Homework 1 </a>. Due on Thursday, Jan 26th by 5pm via canvas. <a href="sds321/HW1-sol.pdf">Solutions. <br
+ />
+<br/>
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW2-ps.pdf">Homework 2 </a>. Due on Thursday, February 2nd by 5pm by Canvas. <a href="sds321/HW2-ps-key.pdf">Solutions. <br/><br/>
+
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW3-ps.pdf">Homework 3 </a>. Due on Thursday, February 9th by 5pm by Canvas. <a href="sds321/HW3-ps-key.pdf">Solutions. <br/>
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW4-ps.pdf">Homework 4 </a>. Due on Friday, February 17th by 5pm via Canvas. <a href="sds321/HW4-sol.pdf">Solutions. <br/><br/>
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW5-ps.pdf">Homework 5 </a>. Due on Friday, February 24th by 5pm via Canvas. <a href="sds321/HW5-sol.pdf">Solutions. <br/>
+
+<br/>
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW6.pdf">Homework 6 </a>. Due on Tuesday,Match 10th by midnight via canvas. <a href="sds321/HW6-sol.pdf">Solutions. <br>
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW_continuous_start.pdf">(Pseudo) Homework </a>. Some practice integration problems and reading <a href="sds321/HW5-short-key.pdf">Solutions. <br/>
+
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW7.pdf">Homework 7</a>. Due Friday March 31st by midnight via Canvas <a href="sds321/HW7-ps-key.pdf">Solutions. <br/>
+
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW8.pdf">Homework 8</a>. Due Friday April 7th by midnight via Canvas <a href="sds321/HW8-ps-key.pdf">Solutions. <br/>
+
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW9.pdf">Homework 9</a>. Due Friday April 28th by midnight via Canvas <a href="sds321/HW9-sol.pdf">Solutions. <br/>
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW-EC2.pdf">Extra credit HW</a>. Due Friday May 5th by midnight via Canvas <a href="sds321/HW-EC2-sol.pdf">Solutions. <br/>
+
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW10.pdf">Homework 10</a>. Due Friday May 7th by midnight via Canvas <a href="sds321/HW10-sol.pdf">Solutions. <br/>
+
+
+<!---
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW4-ps.pdf">Homework 4 </a>. Due on Tuesday, February 23th by 4pm at 7.504. <a href="sds321/HW4-new-key.pdf">Solutions. <br/>
+
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW5-pseudo.pdf">(Pseudo) Homework 5 </a>. Please finish them by the first midterm! <a href="sds321/HW5-ps-key.pdf">Solutions. <br/>
+
+<br/>
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW5-short.pdf">(Short) Homework 6 </a>. Due on Wednesday, March 9th by 4pm at 7.504.  <a href="sds321/HW5-short-key.pdf">Solutions. <br/>
+
+<br/>
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW7.pdf">(Long) Homework 7 </a>. Due on Wednesday, March 23rd by 4pm at 7.504. <a href="sds321/HW6-key.pdf">Solutions. <br/>
+
+<br/>
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW8.pdf"> Homework 8 </a>. Due on Friday, April 1st by 5pm via Canvas.  <a href="sds321/HW8-new-key.pdf">Solutions. <br/><br/>
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW9.pdf"> Homework 9 </a>. Due on Wednesday, April 20th by 5pm via Canvas.   <a href="sds321/HW9-key.pdf">Solutions. <br/><br/>
+
+
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW10.pdf"> Homework 10 </a>. Due on Wednesday, April 27th by 5pm via Canvas.    <a href="sds321/HW10-key.pdf">Solutions. <br/><br/>
+
+
+
+<span style="font-weight: bold;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   </span> <a href="sds321/HW11.pdf"> Homework 11 </a>. Due on Wednesday, May 4th by 5pm via Canvas.   <a href="sds321/HW11-key.pdf">Solutions. <br/><br/>
+
+<br/>
+-->
+
+</div>
+
+</div>
+
+
+</div>
+
+</body>
+</html>
+
+  </body>
+</html>

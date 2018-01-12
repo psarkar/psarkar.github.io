@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Teaching</title>
+
+
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+</head>
+
+
+
+<body>
+
+<div id="header">
+<h1>Purnamrita Sarkar</h1>
+
+<div id="menu">
+<ul id="nav">
+
+  <li><a href="index.html">Home</a></li>
+
+  <li></li>
+
+  <li><a href="Research1.html">Research</a></li>
+
+  <li><a href="#3">Teaching<span style="font-weight: bold;"></span></a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+<div id="content">
+<div style="color: rgb(0, 0, 0);" id="right">
+<h2><a name="3"></a>Teaching</h2>
+<br />
+<a href="sds321.html"><span style="font-weight: bold;">SDS321 </span>: Introduction to probability and statistics </a><br />
+<!---<span style="font-weight: bold;">Sprint 2015- SDS321 </span>: Introduction to probability and statistics <br /> --->
+<br />
+<a href="sds383c.html"><span style="font-weight: bold;">Fall 2015- SDS383C </a></span>: Statistical Modeling I <br />
+<!---<span style="font-weight: bold;">Phone</span>: 412-855-3076<br />
+--->
+
+</div>
+
+</div>
+
+
+</div>
+
+</body>
+</html>
