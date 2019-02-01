@@ -1,0 +1,74 @@
+\documentclass[11pt]{article}
+\usepackage[left=1.25in,top=1in,right=1.25in,bottom=1.00in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{amsbsy}
+\usepackage{amsthm}
+\usepackage{hyperref}
+
+\usepackage{epsfig}
+\usepackage{color}
+\usepackage[round]{natbib}
+\usepackage{multirow} 
+\newcommand{\logit}{\mbox{logit}}
+\newcommand{\probit}{\mbox{probit}}
+\newcommand{\hiw}{{\small\textsc{HIW}}}
+\newcommand{\iw}{{\small\textsc{IW}}}
+\newcommand{\N}{\mbox{N}}
+\newcommand{\Be}{\mbox{Be}}
+\newcommand{\dd}{\mbox{d}}
+\newcommand{\C}{\; | \;}
+\newcommand{\var}{\text{var}}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newcommand{\cd}{\stackrel{d}{\rightarrow}}
+\newcommand{\cp}{\stackrel{P}{\rightarrow}}
+\newcommand{\cas}{\stackrel{a.s.}{\rightarrow}}
+\newenvironment{definition}[1][Definition]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{example}[1][Example]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{remark}[1][Remark]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+
+
+
+
+\begin{document}
+
+\title{{\bf Homework Assignment 1}\\Due in class, Friday Feb 15th midnight via Canvas}
+\author{SDS 384-11 Theoretical Statistics}
+
+\date{}
+
+\maketitle{}
+%\textbf{Set algebra and probability laws.}
+\begin{enumerate}%\item Read Bertsekas and Tsitsiklis, sections 1.1, 1.2 and 1.3.
+%\section{Jeffrey's prior}
+%\begin{enumerate}
+%\end{enumerate}
+\item We will examine asymptotic equivalence in this question. 
+\begin{enumerate}
+	\item Show that two sequences of normalized R.V.'s (mean 0 and variance 1) are asymptotically equivalent if their correlation converges to one. Conclude that if $(X_n-E[X_n])/\sqrt{\var(X_n)}\cd X$ and if $corr(X_n,Y_n)\rightarrow 1$, then $(Y_n-EY_n)/\sqrt{\var(Y_n)}\cd X$.
+	\item Suppose $X_n,Y_n$ have zero mean and equal variance. Is it true that if $X_n\cd X$?
+\end{enumerate}
+\item The following inequality bounds the worst case error that may be made using a Poisson Approximation. It is also known as Le Cam's inequality. Let $X_1,\dots, X_n$ be i.i.d Bernoulli R.V.'s with $P(X_i=1)=p_i$. Let $S_n=\sum_i X_i$ and let $\lambda=\sum_i p_i$, and let $Z$ be an R.V. with the Poisson($\lambda$) distribution, i.e. $\mathcal{P}(\lambda)$. Show that for all sets $A$,
+$$|P(S_n\in A)-P(Z\in A)|\leq \sum_i p_i^2.$$
+
+\textit{Hint: We will prove this using a coupling argument, i.e. we will use a construction which defines $S_n$ and $Z$ to be on the same probability space, so that they are close. Let $U_\sim Uniform(0,1)$ be i.i.d uniform R.V.'s. Now let $X_i=1(U_i\geq 1-p_i)$. Now let $Y_i=0$ if $U_i< e^{-p_i} $. Construct the rest of $Y_i$'s PMF using $U_i$ such that $Y_i\sim \mathcal{P}(p_i)$. Now show $|P(S_n\in A)-P(Z\in A)|\leq \sum_i P(X_i\neq Y_i)$. Finish the rest of the proof.} 
+\item Suppose $X_1,\dots, X_n$ are i.i.d random variables with mean $\mu$ and variance $\sigma^2$. Let $T_n=\sum_i z_{ni}X_i$, $\mu_n=E[T_n]$ and $\sigma_n^2=\var(T_n)$. Using the Lindeberg-Feller theorem show that 
+$$\frac{T_n-\mu_n}{\sigma_n}\cd N(0,1)$$
+
+
+\item If $X_n\stackrel{d}{\rightarrow} X\sim Poisson(\lambda)$, is it necessarily true that $E[g(X_n)]\rightarrow E[g(X)]$?
+\begin{enumerate}
+	\item $g(x)=1(x\in (0,10))$
+	\item $g(x)=e^{-x^2}$
+	\item $g(x)=sgn(cos(x))$ [$sgn(x)=1$ if $x>0$, $-1$ if $x<0$ and $0$ if $x=0$.]
+	\item $g(x)=x$
+\end{enumerate}
+\item Show that if $\{X_n\}$ and $\{Y_n\}$ are independent, and if $X_n\cd X$ and $Y_n\cd Y$, then $(X_n,Y_n)\cd (X,Y)$, where $X$ and $Y$ are taken to be independent. 
+\end{enumerate}
+\end{document} 
