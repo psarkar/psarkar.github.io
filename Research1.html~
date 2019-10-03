@@ -55,11 +55,48 @@ Currently I am working on computing nearest neighbors in large disk-resident gra
 <h2><big>Relevant Publications</big></h2>
 <br />
 <br />-->
+    
 <span style="color: rgb(0, 0, 0);"><b>PREPRINTS:</b></span><span style="color: rgb(0, 0, 0);">&nbsp;</span>Find me on <a href="https://arxiv.org/find/all/1/all:+AND+purnamrita+sarkar/0/1/0/all/0/1"><span style="font-weight: bold;">Arxiv</a>.
+       <br />
+ <br />
+<br />
+    <span style="color: rgb(0, 0, 0);">&nbsp;</span><a href="nips_2018_mf_surface.pdf"><span style="font-weight: bold;">Mean Field for the Stochastic Blockmodel:
+Optimization Landscape and Convergence Issues. 
+    </span></a>
+<br />(Soumendu Sundar Mukherkee, Purnamrita Sarkar, Y. X. Rachel Wang, and Bowei Yan. )
+<br /><br />
+&nbsp; &nbsp;&nbsp; &nbsp; - A better understanding of the landscape of the meanfield loss function for blockmodels and its implication to inference.
+<br /><br />
+&nbsp; &nbsp;&nbsp; &nbsp; - NIPS 2018.
+   <br /><br />
+    &nbsp; &nbsp;&nbsp; &nbsp; - Supplementary <a href="nips_2018_mf_surface_appendix.pdf"> here </a> </i>.
+
+    <br />
+ <br />
+<br />
+    <span style="color: rgb(0, 0, 0);">&nbsp;</span><a href="nips_2018.pdf"><span style="font-weight: bold;">Overlapping Clustering Models, and One (class) SVM to Bind Them All. 
+    </span></a>
+<br />(Xueyu Mao, Purnamrita Sarkar, and Deepayan Chakrabarti. )
+<br /><br />
+&nbsp; &nbsp;&nbsp; &nbsp; - An overarching inference framework for clustering with overlap.
+<br /><br />
+&nbsp; &nbsp;&nbsp; &nbsp; - NIPS 2018, Spotlight.
+   <br /><br />
+    &nbsp; &nbsp;&nbsp; &nbsp; - Supplementary <a href="supplementary1.pdf"> here </a> </i>.
 <br />
  <br />
 <br />
-<span style="color: rgb(0, 0, 0);">&nbsp;</span><a href="https://arxiv.org/abs/1705.08530"><span style="font-weight: bold;">On clustering network-valued data.
+    <span style="color: rgb(0, 0, 0);">&nbsp;</span><a href="https://arxiv.org/abs/1705.08580"><span style="font-weight: bold;">Exact Recovery of Number of Blocks in Blockmodels. 
+    </span></a>
+<br />(Bowei Yan, Purnamrita Sarkar, and Xiuyuan Cheng. )
+<br /><br />
+&nbsp; &nbsp;&nbsp; &nbsp; - Recovering K in the stochastic blockmodels via SDPs.
+<br /><br />
+&nbsp; &nbsp;&nbsp; &nbsp; - AISTATS 2018</i>.
+    <br />
+ <br />
+<br />
+<span style="color: rgb(0, 0, 0);">&nbsp;</span><a href="https://arxiv.org/abs/1606.02401"><span style="font-weight: bold;">On clustering network-valued data.
 </span></a> <a href=""><span style="font-weight: bold;">[Supplementary]</span></a>
 <br />(Soumendu Mukherjee, Purnamrita Sarkar, Lizhen Lin)
 <br /><br />
@@ -341,55 +378,6 @@ social network).<br />
  </span>
 
 </div>
-
-<div id="left">
-<div class="box"> <span style="text-decoration: underline;">Courses</span><br />
-<br />
-
-Theoretical Statistics 
-<br />
-<br />
-Probability Theory
-<br />
-<br />
-Stein's Method and Applications
-<br />
-<br />
-Combinatorial Stochastic Processes
-<br />
-<br />
-Machine Learning
-<br />
-  <br />
-Statistical Foundations of Machine Learning<br />
-  <br />
-
-Probabilistic Graphical Models<br />
-  <br />
-
-Spectral Graph Theory and Scientific Computing<br />
-
-  <br />
-
-Machine Learning Theory<span style="text-decoration: underline;"><br />
-
-<br />
-
-</span>Convex Optimization<br />
-
-<br />
-
-Multimedia Databases<br />
-
-<span style="text-decoration: underline;"><br />
-
-
-</span>Intermediate Probability<span style="text-decoration: underline;"><br />
-
-<br />
-
-</span>Intermediate Statistics<br />
-
 
 <ul>
 
