@@ -61,12 +61,13 @@
     <span style="font-weight: bold;">Reading </span>: Chapters 9.1 9.2 and 9.3 in <a href="https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf"> [Convex Optimization book] </a> by Boyd and Vandenberghe. <br /><br/>
     <span style="font-weight: bold;">09/17 </span>: Momentum methods <a href="SDS385/lecture4-ps.pdf"> [Slides]. </a>  <br /><br/>
    <span style="font-weight: bold;">Reading </span>: Nesterov's accelerated gradient vs Polyak's momentum <a href="http://proceedings.mlr.press/v28/sutskever13.pdf">here </a>.<br /><br/>
-  <span style="font-weight: bold;">09/23 </span>: HW1 is out <a href="SDS385/HW1.pdf"> [here]. </a> Latex file is <a href="SDS385/HW1.tex"> [here]. </a> Please download the dataset from the Canvas page. Solutions are  <a href="SDS385/"> [here]. </a> <br /><br/>
+  <span style="font-weight: bold;">09/23 </span>: HW1 is out <a href="SDS385/HW1.pdf"> [here]. </a> Latex file is <a href="SDS385/HW1.tex"> [here]. </a> Please download the dataset from the Canvas page. Solutions are  <a href="SDS385/SDS_385_HW1.pdf"> [here]. </a> and <a href="SDS385/sds385_hw1_lr_yx.html"> [here] (Thanks to Gail!!). </a> <br /><br/>
   <!---  <span style="font-weight: bold;">09/24 </span>: Momentum methods and Subgradients <a href="SDS385/lecture4-ps.pdf"> [Slides]. </a> <br/><br/>--->
     <span style="font-weight: bold;">Reading </span>: Stephen Boyd's notes. <a href="https://web.stanford.edu/class/ee364b/lectures/subgrad_method_notes.pdf">here </a>.<br /><br/>
      <span style="font-weight: bold;">09/24 </span>: Proximal methods <a href="SDS385/lecture5-ps.pdf"> [Slides]. </a> <br/><br/>
-     <span style="font-weight: bold;">09/24 </span>: A note on optimization and duality <a href="https://www-cs.stanford.edu/people/davidknowles/lagrangian_duality.pdf"> [Here]. </a> <br/><br/>
-     <span style="font-weight: bold;">09/24 </span>: Derivatives w.r.t vectors <a href="https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf"> [Here]. </a> <br/><br/>
+     <span style="font-weight: bold;">Reading </span>: A note on optimization and duality <a href="https://www-cs.stanford.edu/people/davidknowles/lagrangian_duality.pdf"> [Here]. </a> <br/><br/>
+     <span style="font-weight: bold;">Reading </span>: Derivatives w.r.t vectors <a href="https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf"> [Here]. </a> <br/><br/>
+<span style="font-weight: bold;">Reading </span>: Proximal methods <a href="https://web.stanford.edu/~boyd/papers/pdf/prox_algs.pdf"> [Here]. </a> <br/><br/>
 
     <span style="font-weight: bold;">10/8 </span>: Reading: Support vector machines <a href="http://www.robots.ox.ac.uk/~az/lectures/ml/lect2.pdf"> [here]. </a>  <br /><br/>
      <span style="font-weight: bold;">10/8,10 </span>: Large scale SVM optimization<a href="SDS385/lecture6-ps.pdf"> [Slides]. </a> <br/><br/>
@@ -90,6 +91,8 @@
 
 
     <span style="font-weight: bold;">11/04 </span>: Distributed computing - PODC tutorial<a href="https://www.podc.org/data/podc2018/podc2018-tutorial-alistarh.pdf"> [Here]. </a>
+<br/><br/>
+<span style="font-weight: bold;">11/06 </span>: PCA and LDA (a detour for better understanding the distrance metric learning paper) <a href="SDS385/dimreduction.pdf"> [Here]. </a> <br/><br/>
 <!--    <br/><br/>
     <span style="font-weight: bold;">11/5 </span>: Emily Fox's notes <a href="https://courses.cs.washington.edu/courses/cse547/15sp/slides/fusedlasso-lassoSolvers-annotated.pdf"> [Here]. </a>
     <br/><br/>

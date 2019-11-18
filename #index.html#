@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+
+  
+
+
+  
+  
+  
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+
+
+<body>
+
+
+
+<div id="header">
+<h1 style="color: rgb(255, 255, 255);">Purnamrita Sarkar</h1>
+
+
+
+<div id="menu">
+<ul id="nav">
+
+
+
+  <li><a href="#">Home</a></li>
+
+
+
+  <li></li>
+
+
+
+  <li><a href="Research1.html">Research</a></li>
+
+
+
+  <li><a href="teaching.html">Teaching</a></li>
+
+
+
+</ul>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+<div id="content">
+<div style="color: rgb(0, 0, 0);" id="right">
+<h2><a name="1"></a><big>About <a href="purna.png">Me</a></big></h2>
+
+
+
+<p class="MsoNormal"> I am an assistant professor of  <a href="https://stat.utexas.edu/"> Statistics </a> at the University of Texas at Austin . My interests are in the  intersection
+of asymptotic statistics, scalable algorithms and networks. My email address is purna.sarkar@austin.utexas.edu.</p>
+
+<p class="MsoNormal">
+Previously I was a postdoctoral scholar at the University of California, Berkeley, where 
+I worked on asymptotic theory for network models and the nonparametric bootstrap for big data. 
+
+I got my PhD from the <a href="http://www.ml.cmu.edu/">Machine
+Learning Department</a> at Carnegie Mellon University.
+  My thesis research has been aimed at analyzing theoretical properties of
+different proximity measures arising from random walks, and using them for designing fast algorithms. Here is a link to my <a href="http://www.cs.cmu.edu/%7Epsarkar/thesis/sarkar_thesis.pdf">thesis</a>.
+
+
+<p class="MsoNormal"> Before joining Carnegie Mellon, I was an undergraduate at the <a href="http://www.cse-web.iitkgp.ernet.in/">Computer Science
+and Engineering Department</a>  in the Indian Institute of Technology, Kharagpur, where I spent four years. <!---During my undergraduate years I also worked with <a href="http://www-static.cc.gatech.edu/fac/Charles.Isbell/">Prof. Charles Isbell</a> as a summer intern at Georgia
+Tech.---> </p>
+
+<!---<p class="MsoNormal"> <span style="font-weight:bold">I am looking for a postdoctoral scholar. Please look at the announcement <a href="postdoc-ad.pdf"> here! </a> </span> </p>
+--->
+
+
+
+
+</body>
+</html>
