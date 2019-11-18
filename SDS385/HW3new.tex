@@ -329,7 +329,9 @@ $$K\ba=m\lambda \ba.$$
 You can assume that $K$ is invertible.
 \item But typically we don't have centered features. So instead of $\phi(\bx_i)$ we should work with $\psi(\bx_i)=\phi(\bx_i)-\dfrac{\sum_j \phi(\bx_j)}{n}$
 Show that the kernel matrix built from these centered feature vectors equal $\tilde{K}=K-K\bo\bo^T/n-\bo\bo^T/nK+\bo^TK\bo/n^2\bo\bo^T$
-\item So the final algorithm is to build $\tilde{K}$ matrix from the data using your choice of a kernel, and then compute top eigenvector of this matrix and project $K$ on that direction. Download the two parabola dataset. Plot the first principal component using PCA. Now do Kernel PCA with the RBF kernel $K(i,j)=\exp(-\|\bx_i-\bx_j\|^2/2\sigma^2)$. Try different values of $\sigma$, and report the one which returns a first kernel PC such that the two classes are separated along this direction.
+\item So the final algorithm is to build $\tilde{K}$ matrix from the data using your choice of a kernel, and then compute top eigenvector of this matrix and project $K$ on that direction. Download the two parabola dataset. Plot the first principal component using PCA. 
+\item Now do Kernel PCA with the RBF kernel $K(i,j)=\exp(-\|\bx_i-\bx_j\|^2/2\sigma^2)$. Change your power method algorithm so that you do not need to compute the $\tilde{K}$ matrix, but only the $K$ matrix. Provide the Pseudocode.
+\item Try different values of $\sigma$, and report the one which returns a first kernel PC such that the two classes are separated along this direction.
 \item What do you think is the relationship of Spectral Clustering with Kernel PCA? Give your answer in 4-5 lines.
 \end{enumerate}
 \end{enumerate}
