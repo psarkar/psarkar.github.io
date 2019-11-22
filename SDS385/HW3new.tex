@@ -294,7 +294,7 @@ such that $N(i,j)=\frac{A(i,j)}{\sqrt{d(i)d(j)}}$, where $d(i)=\sum_k A(i,k)$.
 \item We are going to learn and implement the power method in this problem. Let the eigenvalues of a square symmetric matrix $A\in \mathbb{R}^{n\times n}$ be given by $|\lambda_1|>|\lambda_2| > \dots$. We will assume that the eigenvalues are all different for convenience of analysis. Start with some vector $\bq^{(0)}$. Now compute the following:
 \begin{align}
 \bz^{(k)}&=A\bq^{(k-1)}\\
-\bq^{(k)}&=\frac{\bq^{(k-1)}}{\|\bq^{(k-1)}\|}\\
+\bq^{(k)}&=\frac{\bz^{(k-1)}}{\|\bz^{(k-1)}\|}\\
 \nu^{(k)}&=(\bq^{(k)})^TA\bq^{(k)}
 \end{align}
 \begin{enumerate}
