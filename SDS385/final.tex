@@ -1,0 +1,248 @@
+\documentclass[12pt]{article}
+\usepackage{natbib,amssymb,amsmath,amsthm,bbm,epsfig,color,verbatim,enumitem,hyperref}
+
+\setlength{\topmargin}{-.7in}
+\setlength{\oddsidemargin}{0.3in}
+\setlength{\textwidth}{6.15in}
+\setlength{\textheight}{9.2in}
+\renewcommand{\baselinestretch}{1.2}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+\newcommand{\bs}[1]{\boldsymbol{#1}}
+\newcommand{\bm}[1]{\boldsymbol{#1}}
+\newcommand{\mc}[1]{\mathcal{#1}}
+\newcommand{\mr}[1]{\mathrm{#1}}
+\newcommand{\mbb}[1]{\mathbb{#1}}
+\newcommand{\cov}{\text{cov}}
+\newcommand{\bi}{\begin{enumerate}}
+	\newcommand{\ib}{\end{enumerate}}
+\newcommand{\rd}{\color{red}}
+\newcommand{\bk}{\color{black}}
+\newcommand{\bl}{\color{blue}}
+\newcommand{\p}{\item}
+% \pagestyle{empty}
+\newcommand{\solution}[1] {\begin{quote}\em \color{blue} {\bf Solution}: #1 \end{quote}}
+\newcommand{\grading}[1]{\begin{quote}\footnotesize \bf\em Grading: #1 \end{quote}}
+% {#1} {}
+%\newcommand{\grading}[1] { }
+
+\newcommand{\Prob}{\mathbf{P}}
+\newcommand{\skoo}{\vspace{.2in}}
+\newcommand{\var}{\mbox{var}}
+\newcommand{\gr}{\color{green}}
+\newcommand{\subg}{sub-gaussian\xspace}
+\newcommand{\subexp}{sub-exponential\xspace}
+\newcommand{\rv}{random variable\xspace}
+\newcommand{\rvs}{random variables\xspace}
+\newcommand{\cd}{\stackrel{d}{\rightarrow}}
+\newcommand{\cp}{\stackrel{P}{\rightarrow}}
+\newcommand{\cas}{\stackrel{a.s.}{\rightarrow}}
+\newcommand{\F}{\mathcal{F}}
+\newcommand{\R}{\mathcal{R}}
+\newcommand{\bR}{\mathbb{R}}
+\newcounter{choice}
+\renewcommand\thechoice{\Alph{choice}}
+\newcommand\choicelabel{\thechoice.}
+\newcommand{\Exp}{\mbox{Exponential}}
+\newenvironment{choices}%
+{\list{\choicelabel}%
+	{\usecounter{choice}\def\makelabel##1{\hss\llap{##1}}%
+		\settowidth{\leftmargin}{W.\hskip\labelsep\hskip 2.5em}%
+		\def\choice{%
+			\item
+		} % choice
+		\labelwidth\leftmargin\advance\labelwidth-\labelsep
+		\topsep=0pt
+		\partopsep=0pt
+	}%
+}%
+{\endlist}
+
+\newenvironment{oneparchoices}%
+{%
+	\setcounter{choice}{0}%
+	\def\choice{%
+		\refstepcounter{choice}%
+		\ifnum\value{choice}>1\relax
+		\penalty -50\hskip 1em plus 1em\relax
+		\fi
+		\choicelabel
+		\nobreak\enskip
+	}% choice
+	% If we're continuing the paragraph containing the question,
+	% then leave a bit of space before the first choice:
+	\ifvmode\else\enskip\fi
+	\ignorespaces
+}%
+{}
+\newcommand{\sg}{sub-gradient}
+\newcommand{\sgs}{sub-gradients}
+\newcommand{\xk}{x^{(k)}}
+
+\begin{document}
+	
+	\title{\bf  Take home final}
+	\author{\bf SDS385}
+	\date{\it Fall 2019} %change for each day.
+	\maketitle{}
+	%\date{}
+	
+	
+	\vskip .3cm
+%	\noindent You may use two (2 sided) pages of notes, and you may use a calculator.  
+	\vskip .3cm
+	\noindent This exam has two theoretical and three coding questions. You need to answer all questions. 
+	
+	\noindent Read each question carefully, \underline{\textbf{show your work}} and clearly present your answers. Note, the exam is printed two-sided - please don't forget the problems on the even pages!
+	
+	\noindent Please make sure these are your own answers. You can talk to the instructor or the TA if you have any questions.
+	
+	\noindent Turn in your solution via canvas by Dec 16th 10am.
+	\vspace{1cm}
+	
+	
+	
+	\vskip 1.5cm
+	\begin{center}
+		{\Large \bf Good Luck!}
+	\end{center}
+	\vskip 1.5cm
+	
+	
+	%\noindent{\bf Honor Code Pledge:} ``I pledge my honor that I have not
+	%violated the Honor Code during this examination.''
+	%\vskip .5cm
+	%\hskip 4.5cm Signed: \underline{\hskip 9cm}
+	%\vskip 1.2cm
+	\noindent{\bf Name: \underline{\hskip 12.3cm}}
+	\vskip 1.2cm
+	\noindent{\bf UTeid: \underline{\hskip 12.3cm}}
+	\vskip 0.5cm
+	
+	%\noindent{\bf Section: \underline{\hskip 12cm}}
+	\newpage
+	
+	\section{Experimental questions (30 points)}
+	
+	\bi
+\item (10 pts) \textbf{LSH for Project Gutenberg Data}: Download \textbf{Gutenberg.zip} which contains $3036$ e-books from project Gutenberg (a small subset of their full corpus) in separate \textbf{.txt} files. 
+Convert each book into its set of $2$-shingles using scikit-learn’s \textbf{HashVectorizer} with $2^{18}$ features. The output will be a \textbf{scipy.sparse} matrix $X$. 
+For Jaccard similarity, use a binary (present/absent) representation instead of shingle counts or frequencies.
+For each document, generate the MinHash signatures for $n = 90$ hash functions of the same form as in your homework, using a prime $p$ larger than $2^{18}$. Use the LSH procedure with $n = 90$ signatures and $b = 30$ bands. Rather than matching signatures explicitly, hash the band of signatures with a separate hash table for each band (see “Mining of Massive Datasets” section 3.4.1). Let any two documents with the same signature key for at least one band be called \textit{neighbors}.
+\begin{enumerate}[label=(\alph*)]
+\item Approximate the pairwise Jaccard similarity as the fraction of total matching MinHash signatures between all \textit{neighboring} documents (notice how many comparisons this saves vs. $O(3036^2))$. Then find the $k$ most similar document pairs according to this approximation. For $k=10,20,30$, show your results in a table. Specifically, show the document pairs, their true Jaccard score.
+\iffalse
+Let each file be indexed by its file name’s position in alphabetical order (where $A=0$). Store their file names, indices, and MinHash similarity in a \textbf{pandas.DataFrame} where each row is of the form:
+
+\begin{verbatim}
+row = {‘name1’: <file1name>, ‘name2’:, <file2name>, \
+                ‘id1’: <file1id>, ‘id2’: <file2id>, ‘similarity’: s}
+rows = [row]
+df = pandas.DataFrame(rows)
+df.to_csv(’GutenbergMinHash.csv’)
+\end{verbatim}
+
+Your code should be able to read a set of \textbf{.txt} files from the directory \textbf{Gutenberg/txt/} and write the \textbf{.csv} file described above to the same directory as the python file using the command \textbf{python finallsh.py}.
+\fi
+Hint: You may find it helpful while developing your code to serialize your partial computations (the shingle matrix, signature matrix, etc.) using \textbf{cPickle} or \textbf{numpy.save}.
+\item How long will exact search take for $k=10,20$ and $30$? Compare the search results from LSH and exact search. Also compare the time taken by both for $k=10,20$ and $30$.
+\end{enumerate}
+
+\item \textbf{Stochastic Variance Reduced Gradient Descent (SVRG).} (10 pts) We are going to implement SVRG which we saw in one of the class presentations. 
+Consider minimizing a function of the following form:
+$$F(\beta) = \frac{1}{n}\sum_{i=1}^n f(x_i,\beta).$$
+
+A lot of objective functions defined over i.i.d data points, like least squares or maximum likelihood has this form. $f$ is typically convex, and may or may not be differentiable. 
+
+There are several possible choices of a stochastic subgradient. Here are two different ones, along with the names they are most known by:
+\begin{itemize}
+   % \item RCD\tab $\Tilde{g}(\beta)=\frac{\partial}{\partial \beta_i}F(\beta)\bm{e_i}$, $i \in [n]$ random
+    \item SGD\tab $\Tilde{g}(\beta)=\nabla f_i(\beta)$, $i \in [n]$ random
+    \item SVRG\tab $\Tilde{g}(\beta)=\nabla f_i(\beta)+\nabla f_i(\beta^{\text{old}})-\nabla F(\beta^{\text{old}})$, $i \in [n]$ random
+\end{itemize}
+%Here, RCD stands for “Random Coordinate Descent,”, 
+You have already seen  “SGD” (aka stochastic gradient descent). We have read about “SVRG” (stochastic variance reduced gradient descent).  $\beta^{old}$ is some old point which we now define. The SVRG algorithm is as follows: 
+\begin{enumerate}[label=(\alph*)]
+\item Initialize at some $\bm{y_1}$, and set $\bm{x}_1=\bm{y}_1$.
+
+\item Outer loop: For $s = 1,2,...,$ compute $\mu_s = \nabla F(\bm{y_s})$, and set $\bm{x_0}=\bm{y_s}$.
+
+\item  Inner loop: For $k = 1,...,m,$ run stochastic gradient descent with a re-centered stochastic gradient:
+$$\bm{x}_{k+1}=\bm{x}_{k}-\eta(\nabla f_I(\bm{x}_k)-\nabla f_I(\bm{y}_s)+\mu_s).$$
+
+\item Option I: set
+$$\bm{y}_{s+1}=\bm{x}_{m+1}.$$
+
+\item Option II: set
+$$\bm{y}_{s+1}=\frac{1}{m}\sum_{k=1}^m \bm{x}_{k+1}.$$
+
+\item Option III: Choose a random index $J \in [m]$, and set $$\bm{y}_{s+1}=\bm{x}_{J+1}.$$
+\end{enumerate}
+
+In practice, Option I seems the most natural, though some of the standard proofs rely on
+other versions.
+This algorithm explains what $\beta^{\text{old}}$ means. The rationale is that,  the re-centered stochastic gradient has a significantly reduced variance. 
+
+Recall the multiclass logistic regression problem from HW1. You will again work on the digits data and the news data. 
+For each of these, compare (plot) the performance of GD, SGD, and SVRG for logistic regression \textbf{with $\ell^2$ regularization}. Plot your results against the number of gradient evaluations for a single training example (GD performs $n$ such evaluations per iteration and SGD performs $1$). 
+
+Set the regularizer to $1/n$, where $n$ is the number of data points. How does the choice of $m$
+affect the performance of SVRG? What seems to be a good choice of $m$? Now choose a bigger regularizer. What do you observe?
+
+Do option I, II and III perform differently? Show plots to compare their performance on the two datasets.
+\p \textbf{Spectral Clustering on large sparse graphs.} In class we have learned about Spectral Clustering for datasets. In this question you will do Spectral Clustering for sparse networks. In network.txt find a sparse representation of a network in (src, dest, weight) format. Note that the weight is always 1. Build an undirected and unweighted adjacency matrix from this. An adjacency matrix of a graph $A$ is an n by n matrix (n is the number of nodes). $A_{ij}=1$ if there is an edge between nodes $i$ and $j$. The true labels of the nodes can be found in comm.txt.
+\bi
+\p Do Spectral Clustering on this adjacency matrix using your own eigenvector routine. Report the accuracy.
+\p Open the paper on network clustering by Amini et al from \href{https://arxiv.org/pdf/1207.2340.pdf}{{\color{blue} \textbf{here}}}. Read section 2.3.2 to better understand why Spectral Clustering sometimes does not perform well on very sparse networks. Now implement the regularized spectral clustering algorithm proposed in this paper using your own eigenvector routine. You should code up your eigenvector computation such that you do not need to create a $n\times n$ dense matrix. Report the time and accuracy.
+\ib
+	\ib
+	
+	
+	\newpage
+	\section{Theory questions (30 points)}
+	\bi
+	\p Consider the sub-gradient descent algorithm you learned in class (see lecture4). In this question we will work on obtaining rates of convergence for this algorithm. Assume that you are minimizing a convex function $f$ with minimizer $x^*$. Also assume that $f$ is Lipschitz continuous, i.e. all \sgs are bounded above:
+	$$\|g\|_2\leq G.$$
+	Also assume that the distance of the initial point from the truth $x^*$ is bounded as below:
+	$$\|x^{(1)}-x^*\|_2\leq R.$$
+	Define  $d_k:=\|x^{(k)}-x^*\|_2$. 
+	\bi
+	\p Prove that $$d_{k+1}^2\leq d_k^2-2\alpha_k(f(\xk)-f(x^*))+\alpha_k^2\|g^{(k)}\|^2.$$
+	\p Using the above show that
+	$$2\sum_{j=1}^k\alpha_j(f(x^{(j)})-f(x^*))\leq R^2+\sum_{j=1}^k \alpha_j^2\|g^{(j)}\|^2$$
+	\p Now show that, 
+	$$f^{(k)}_{\text{best}}-f(x^*)\leq \frac{R^2+G^2\sum_{j=1}^k\alpha_j^2}{2\sum_{j=1}^k\alpha_j},$$
+	where $f^{(k)}_{\text{best}}=\min(f(x^{(1)}),\dots,f(x^{(k)}))$.\p Find a sequence of $\alpha_i$'s such that the above is $O(\log k/\sqrt{k})$. Give a proof.
+	\ib
+	
+	\p Consider a design matrix $\bm{X}$ such that $\bm{X}$ has orthonormal columns, i.e.
+$\bm{X^T X} = \bm{I}$, where $\bm{I}$ is the $p \times p$ identity matrix. Consider the following regularization:
+\begin{equation}
+    \underset{\beta}{\min}\frac{1}{2}(\bm{X\beta-y})^T(\bm{X\beta-y})+\lambda||\bm{\beta}||_m
+\end{equation} %where $||\bm{\bm{\beta}}||_0 = \sum_{i=1}^p \mathbbm{1}(\beta_i\neq 0)$.
+
+    \bi
+    \p Derive the solution to equation $(1)$ for $m=2$ (ridge regression).
+    \p Derive the solution to equation $(1)$ for $m=1$ (lasso).
+    \p When $m=0$, the penalty involves $||\bm{\bm{\beta}}||_0 = \sum_{i=1}^p \mathbbm{1}(\beta_i\neq 0)$. 
+    \bi
+    \p Is this a convex optimization problem? Why or why not?
+    \p Show that the solution to equation $(1)$ with $m=0$ is given by $\bm{\Tilde{\beta}}$, where
+    \[
+    \Tilde{\beta}_i = 
+    \begin{cases}
+        \bm{v_i^T y},& \text{if } |\bm{v_i^T y}|>\sqrt{2\lambda}\\
+        0            & \text{if } |\bm{v_i^T y}|\leq\sqrt{2\lambda}
+    \end{cases}
+    \]
+    This is also called the hard thresholding estimator. $\bm{v_i}$ is the $i^{th}$ column of $\bm{X}$.
+\ib
+    \ib
+
+\ib	
+
+	
+	\newpage
+	%\begin{center}
+	
+	
+\end{document}
