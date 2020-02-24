@@ -67,10 +67,15 @@ While measure theory is not a pre-requisite for this class, you can use Peter Ho
 --->
          <span style="font-weight: bold;">02/7,12 </span>: Concentration inequalities III<a href="SDS384/lecture5-ps.pdf"> [Slides]. </a> <br /><br />
           <span style="font-weight: bold;">02/14,19 </span>: Concentration inequalities IV<a href="SDS384/lecture6-ps.pdf"> [Slides]. </a> <br /><br />
- <!---   <span style="font-weight: bold;">02/19,21 </span>: Efron-Stein inequality<a href="SDS384/efron-stein.pdf"> [Slides]. </a> <br /><br />
-    <span style="font-weight: bold;"> Reading </span>: Chapter 4 from Gabor Lugosi's notes  <a href="http://www-stat.wharton.upenn.edu/~steele/Courses/9xx/Resources/Concentration/LugosiANUnotes.pdf"> [here]. </a> <br/><br/>
+<span style="font-weight: bold;">03/13 </span>: Concentration inequalities V<a href="SDS384/lecture7-ps.pdf"> [Slides]. </a> <br /><br />
+    <span style="font-weight: bold;">02/19,21 </span>: Efron-Stein inequality<a href="SDS384/efron-stein.pdf"> [Slides]. </a> <br /><br />
+    <span style="font-weight: bold;"> Reading </span>: Chapter 4 from Gabor Lugosi's notes  <a href="http://www-stat.wharton.upenn.edu/~steele/Courses/9xx/Resources/Concentration/LugosiANUnotes.pdf"> [here]. </a> <br/><br/> 
+
+   <span style="font-weight: bold;">01/24 </span>: HW2 is posted <a href="SDS384/hw2.pdf"> [here]. </a> Latex file <a href="SDS384/hw2.tex"> [here]. </a>  Solutions are <a href="SDS384/hw2-sol.pdf"> [here]. </a> <br />
+
+<!---
     <span style="font-weight: bold;">03/05 </span>: HW3 is posted <a href="SDS384/HW3.pdf"> [here]. </a> Solutions are <a href="SDS384/hw3-sol.pdf"> [here]. </a> Thanks to Shivam Gupta.<br /><br />
-     <span style="font-weight: bold;">03/13 </span>: Concentration inequalities V<a href="SDS384/lecture7-ps.pdf"> [Slides]. </a> <br /><br />
+     
     
  <span style="font-weight: bold;">03/25 </span>: U statistics <a href="SDS384/lecture8-ps.pdf"> [Slides]. </a> <br /><br />
     <span style="font-weight: bold;">03/26 </span>: HW4 is posted <a href="SDS384/HW4.pdf"> [here]. </a> Solution are <a href="SDS384/hw4-sol.pdf"> [here]. </a> Thanks to Shivam Gupta. <br /><br />
