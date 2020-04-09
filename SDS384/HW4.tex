@@ -67,9 +67,9 @@ $3$, such that $E_F h(X_1, X_2, X_3) = \theta(F)$ for all continuous $F$. Find t
 
  \begin{enumerate}
 	\item Read and reproduce the proof of equation 5.7 for large sample deviation of order $m$ U statistics. 
-	\item Also prove Bennet's inequality (see below) for U statistics. This is buried in the paper, you will have to find the bits and pieces and put them together. The Bernstein inequality is given by:
+	\item Also prove Bernstein's inequality (see below) for U statistics. This is buried in the paper, you will have to find the bits and pieces and put them together. The Bernstein inequality is given by:
 	\begin{align*}
-		P(|U_n-\theta|\geq \epsilon)\leq a\exp\left(-(n \epsilon/m)(H)\right),
+		P(|U_n-\theta|\geq \epsilon)\leq a\exp\left(-\frac{ n \epsilon^2/m}{c_1\sigma^2+c_2 \epsilon}\right),
 	\end{align*}
 	where $\sigma^2=\var(h(X_1,\dots,X_m))$ and $c_1,c_2$ are universal constants.
 \end{enumerate}
