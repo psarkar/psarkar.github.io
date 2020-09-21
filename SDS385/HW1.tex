@@ -56,7 +56,7 @@ Please upload the HW on canvas before class Oct 11th by 10am. Please type up you
 \p (2pts) If $f(x)$ is convex for $x\in\Re^p$, show that so is $f(Ax+b)$ for $A\in \Re^{p\times p}$ and $b\in \Re^p$.
 \p (2pts) If $f_i(x),i\in[k]$ are convex functions, show that the pointwise maximum, i.e. $g(x)=\max_{i\in[k]}f_i(x)$ is also convex.
 \p (3 pts) Consider the logistic regression problem. For $x\in \Re^p$, You have
-$$y_i\sim Bernoulli\left(\frac{1}{1+e^{-\theta^T x}}\right)$$
+$$y\sim Bernoulli\left(\frac{1}{1+e^{-\theta^T x}}\right)$$
 
 \bi
 \p (1pt) Write down the log likelihood function.
@@ -72,7 +72,7 @@ In this problem we run GD for $t$ iterations with a fixed step size $\alpha<1/L$
 	\item (1 pt) First show that for any $\beta'$,
 	$$f(\beta')\leq f(\beta)+\nabla f(\beta)^T(\beta'-\beta)+\frac{L}{2}\|\beta'-\beta\|^2$$
 	\item (3 pts) Let $\beta_{t+1}=\beta_t-\alpha\nabla f(\beta_t)$. Now show:
-	$$f(\beta_{t+1})\leq f(\beta_t)-t\|\nabla f(\beta_t)\|^2/2$$
+	$$f(\beta_{t+1})\leq f(\beta_t)-\alpha\|\nabla f(\beta_t)\|^2/2$$
 	\item (3 pts) Now show that $f(\beta_{t+1})-f(\beta^*)\leq \frac{1}{2\alpha}(\|\beta_t-\beta^*\|^2-\|\beta_{t+1}-\beta^*\|^2)$
 	\item (3 pts) Using this, show that $$f(\beta_t)-f(\beta^*)\leq \frac{\|\beta_0-\beta^*\|^2}{2\alpha t}$$
 \end{enumerate}
