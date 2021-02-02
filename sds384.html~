@@ -52,20 +52,24 @@
 <div style="color: rgb(0, 0, 0);" id="right">
 <h2><a name="3"></a>SDS 384-11:Theoretical Statistics</h2>
     <br />
-While measure theory is not a pre-requisite for this class, you can use Peter Hoff's  <a href="https://www.stat.washington.edu/~pdhoff/courses/581/LectureNotes/mtheory.pdf"><span style="font-weight: bold;">notes </span> </a> on measure theory if needed.<br />
+While measure theory is not a pre-requisite for this class, you can use Peter Hoff's  <a href="http://www2.stat.duke.edu/~pdh10/Teaching/581/LectureNotes/mtheory.pdf"><span style="font-weight: bold;">notes </span> </a> on measure theory if needed.<br />
 <br/><br/>
-<span style="font-weight: bold;">01/23 </span>: Syllabus <a href="SDS384/syllabus_new.pdf"> [Slides]. </a> , and stochastic convergence <a href="SDS384/lecture1-ps.pdf"> [Slides]. </a> Chapter 2 Van-der-vaart<br /><br/>
-<span style="font-weight: bold;">01/28,30 </span>: More stochastic convergence <a href="SDS384/lecture2-ps.pdf"> [Slides]. </a> Chapter 2 Van-der-vaart<br /><br />
-    <span style="font-weight: bold;">02/1 </span>: HW1 is posted <a href="SDS384/hw1.pdf"> [here]. </a> Latex file <a href="SDS384/hw1.tex"> [here]. </a> Solutions <a href="SDS384/hw1-sol.pdf"> [here (thanks to Brandon Carter)]. </a><br /><br />
-    
-   <span style="font-weight: bold;">01/29,31 </span>: Concentration inequalities I<a href="SDS384/lecture3-ps.pdf"> [Slides]. </a> <br /><br />
+<span style="font-weight: bold;">01/19,21 </span>: Syllabus <a href="SDS384/syllabus.pdf"> [PDF]. </a> , and stochastic convergence <a href="SDS384/lecture1-ps.pdf"> [Slides]. </a> Borel Cantelli Lemmas <a href="SDS384/borelcantelli.png"> here </a> Chapter 2 Van-der-vaart<br /><br/>
+
+
+<span style="font-weight: bold;">01/26,28 </span>: More stochastic convergence <a href="SDS384/lecture2-ps.pdf"> [Slides]. </a> Chapter 2 Van-der-vaart<br /><br />
+    <span style="font-weight: bold;">02/1 </span>: HW1 is posted <a href="SDS384/hw1.pdf"> [here]. </a> Latex file <a href="SDS384/hw1.tex"> [here]. </a> <!---Solutions <a href="SDS384/hw1-sol.pdf"> [here (thanks to Brandon Carter)]. </a><br /><br />-->
+    <br /><br />
+   <span style="font-weight: bold;">01/28 </span>: Concentration inequalities I<a href="SDS384/lecture3-ps.pdf"> [Slides]. </a> <br /><br />
+<!---
     <span style="font-weight: bold;"> Reading </span>: Martin's book chapter on concentration inequalities  <a href="https://www.stat.berkeley.edu/~mjwain/stat210b/Chap2_TailBounds_Jan22_2015.pdf"> [here]. </a> <br/><br/>
  
      <span style="font-weight: bold;">02/5,7 </span>: Concentration inequalities II<a href="SDS384/lecture4-ps.pdf"> [Slides]. </a> <br /><br />
    
    <!--- <span style="font-weight: bold;">01/24 </span>: HW2 is posted <a href="SDS384/hw2.pdf"> [here]. </a> Latex file <a href="SDS384/hw2.tex"> [here]. </a>  Solutions are <a href="SDS384/hw2-sol.pdf"> [here]. </a> Thanks to Qiaohui Lin.<br /><br />
 --->
-         <span style="font-weight: bold;">02/7,12 </span>: Concentration inequalities III<a href="SDS384/lecture5-ps.pdf"> [Slides]. </a> <br /><br />
+     
+<!---    <span style="font-weight: bold;">02/7,12 </span>: Concentration inequalities III<a href="SDS384/lecture5-ps.pdf"> [Slides]. </a> <br /><br />
           <span style="font-weight: bold;">02/14,19 </span>: Concentration inequalities IV<a href="SDS384/lecture6-ps.pdf"> [Slides]. </a> <br /><br />
 <span style="font-weight: bold;">03/13 </span>: Concentration inequalities V<a href="SDS384/lecture7-ps.pdf"> [Slides]. </a> <br /><br />
     <span style="font-weight: bold;">02/19,21 </span>: Efron-Stein inequality<a href="SDS384/efron-stein.pdf"> [Slides]. </a> <br /><br />
@@ -76,7 +80,7 @@ While measure theory is not a pre-requisite for this class, you can use Peter Ho
 <!---
     <span style="font-weight: bold;">03/05 </span>: HW3 is posted <a href="SDS384/HW3.pdf"> [here]. </a> Solutions are <a href="SDS384/hw3-sol.pdf"> [here]. </a> Thanks to Shivam Gupta.<br /><br />
      --->
-    
+    <!---
  <span style="font-weight: bold;">02/24 </span>: U statistics <a href="SDS384/lecture8-ps.pdf"> [Slides]. </a> <br /><br />
     
 
@@ -99,7 +103,7 @@ t <a href="SDS384/lecture14-ps.pdf"> [here]. </a> <br /><br />
      
     <span style="font-weight: bold;">04/15 </span>: Uniform Law of Large Numbers IV with lots of pauses <a href="SDS384/lecture15-ps-inc.pdf"> [here]. </a> and without  <a href="SDS384/lecture15-ps.pdf"> [here]. </a><br /><br />
 <!--    <span style="font-weight: bold;">04/16 </span>: HW5 is posted and a hint has been added. <a href="SDS384/hw5.pdf"> [here]. </a>Solutions will be <a href="SDS384/hw5-sol.pdf"> [here]. </a><br /><br /> <br />-->
-   <span style="font-weight: bold;">Reading  </span>: Martin's book chapter 4 and 5 <br /><br />
+   <!---<span style="font-weight: bold;">Reading  </span>: Martin's book chapter 4 and 5 <br /><br />
     <span style="font-weight: bold;">04/15,20,22 </span>: Uniform Law of Large Numbers V  with pauses <a href="SDS384/lecture16-ps-inc.pdf"> [here],</a> and without <a href="SDS384/lecture16-ps.pdf"> [here]. </a><br /><br />
    
     <span style="font-weight: bold;">04/27 </span>: Uniform Law of Large Numbers VI <a href="SDS384/lecture17-ps.pdf"> [here]. </a> <br /><br />
@@ -108,12 +112,12 @@ t <a href="SDS384/lecture14-ps.pdf"> [here]. </a> <br /><br />
 <!---<span style="font-weight: bold;"> Reading </span>: Martin's book chapter on Metric Entropy  <a href="https://www.stat.berkeley.edu/~wainwrig/nachdiplom/Chap5_Sep10_2015.pdf"> [here]. </a> <br /><br />-->
    <!--- <span style="font-weight: bold;">04/23, 25 </span>: Uniform Law of Large Numbers VII <a href="SDS384/lecture17-ps.pdf"> [here]. </a> <br /><br />
     <span style="font-weight: bold;">04/30, 5/1 </span>: Bootstrap and subsampling <a href="SDS384/lecture18-ps.pdf"> [here]. </a> <br /><br />--->
-    <span style="font-weight: bold;">Reading </span>: Larry Wasserman's Blog <a href="https://normaldeviate.wordpress.com/2013/01/19/bootstrapping-and-subsampling-part-i/"> [here]. </a> and  <a href="https://normaldeviate.wordpress.com/2013/01/27/bootstrapping-and-subsampling-part-ii/"> [here]. </a> <br /><br />
+    <!---<span style="font-weight: bold;">Reading </span>: Larry Wasserman's Blog <a href="https://normaldeviate.wordpress.com/2013/01/19/bootstrapping-and-subsampling-part-i/"> [here]. </a> and  <a href="https://normaldeviate.wordpress.com/2013/01/27/bootstrapping-and-subsampling-part-ii/"> [here]. </a> <br /><br />
     <span style="font-weight: bold;">05/2, 5/1 </span>: Overview <a href="SDS384/lecture19-ps.pdf"> [here]. </a> <br /><br />
     
     <span style="font-weight: bold;">05/2, 5/1 </span>: Practice Exam <a href="SDS384/practice.pdf"> [here]. </a> Solutions  <a href="SDS384/practice_sol.pdf"> [here]. </a> <br /><br />
 </div>
-
+--->
 </body>
 </html>
 
