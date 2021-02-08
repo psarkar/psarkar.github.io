@@ -56,14 +56,42 @@ Currently I am working on computing nearest neighbors in large disk-resident gra
 <br />
 <br />-->
     
+
+<span style="color: rgb(0, 0, 0);"><b>Students and Postdocs:</b>
+
+<br /><br >
+<a href="https://rslunde.github.io/"> Robert Lunde </a>, SDS
+<br /><br >
+Qiaohui Lin, SDS (Jointly advised with Peter Mueller) </a>
+<br /><br >
+<a href="https://sites.google.com/a/utexas.edu/prateek-srivastava/"> Prateek Srivastava </a> , ORIE (Jointly advised with Grani Hanasusanto) 
+<br /><br >
+<a href="https://www.cs.utexas.edu/~xmao/"> Xueyu Mao</a>, CS (now at Amazon) 
+<br /><br >
+<a href="https://boweiyan.github.io"> Bowei Yan </a>, SDS (now at Nuro) 
+       <br /><br >
+<br /><br >
+
+    
     
 <span style="color: rgb(0, 0, 0);"><b>PREPRINTS:</b></span><span style="color: rgb(0, 0, 0);">&nbsp;</span>Find me on <a href="https://arxiv.org/find/all/1/all:+AND+purnamrita+sarkar/0/1/0/all/0/1"><span style="font-weight: bold;">Arxiv</a>.
        <br /><br >
     
  <br />
+<span style="color: rgb(0, 0, 0);">&nbsp;</span><a href="https://arxiv.org/pdf/1905.06661.pdf"><span style="font-weight: bold;">When random initializations help: a study of variational inference for community detection
+    </span></a><!---
+<br />(Qiaohui Lin, <a href="https://rslunde.github.io/"> Robert Lunde </a>, Purnamrita Sarkar )-->
+<br />(Purnamrita Sarkar, Y.X. Rachel Wang, Soumendu Mukherjee )
+<br /><br />
+&nbsp; &nbsp;&nbsp; &nbsp; - Understanding the role of random initializations in variational inference.
+<br /><br />
+&nbsp; &nbsp;&nbsp; &nbsp; - JMLR 2021.
+   <br />
+       <br /><br >
       <span style="color: rgb(0, 0, 0);">&nbsp;</span><a href="https://proceedings.icml.cc/paper/2020/hash/b8c8c63d4b8856c7872b225e53a6656c"><span style="font-weight: bold;">On the Theoretical Properties of the Network Jackknife
-    </span></a>
-<br />(Qiaohui Lin, <a href="https://rslunde.github.io/"> Robert Lunde </a>, Purnamrita Sarkar )
+    </span></a><!---
+<br />(Qiaohui Lin, <a href="https://rslunde.github.io/"> Robert Lunde </a>, Purnamrita Sarkar )-->
+<br />(Qiaohui Lin,  Robert Lunde , Purnamrita Sarkar )
 <br /><a href="network_resampling_slides.pdf"> Talk slides </a>
 <br /><br />
 &nbsp; &nbsp;&nbsp; &nbsp; - Jackknife for network moments
