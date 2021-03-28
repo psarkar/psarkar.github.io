@@ -1,0 +1,129 @@
+\documentclass[11pt]{article}
+\usepackage[left=1.25in,top=1in,right=1.25in,bottom=1.00in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{amsbsy}
+\usepackage{amsthm}
+\usepackage{hyperref}
+
+\usepackage{epsfig}
+\usepackage{color}
+\usepackage[round]{natbib}
+\usepackage{multirow} 
+\newcommand{\logit}{\mbox{logit}}
+\newcommand{\probit}{\mbox{probit}}
+\newcommand{\hiw}{{\small\textsc{HIW}}}
+\newcommand{\iw}{{\small\textsc{IW}}}
+\newcommand{\N}{\mbox{N}}
+\newcommand{\Be}{\mbox{Be}}
+\newcommand{\dd}{\mbox{d}}
+\newcommand{\C}{\; | \;}
+\newcommand{\var}{\text{var}}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\newenvironment{definition}[1][Definition]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{example}[1][Example]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{remark}[1][Remark]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+
+
+
+
+\begin{document}
+
+\title{{\bf Homework Assignment 3}\\Due April 12th by midnight.}
+\author{SDS 384-11 Theoretical Statistics}
+
+\date{}
+
+\maketitle{}
+%\textbf{Set algebra and probability laws.}
+\begin{enumerate}%\item Read Bertsekas and Tsitsiklis, sections 1.1, 1.2 and 1.3.
+%\section{Jeffrey's prior}
+%\begin{enumerate}
+%\end{enumerate}
+\item 
+In this question we consider the Jackknife estimate of variance of a symmetrical measurable function of $n-1$ variables $S$. Let $X_1,\dots,X_n-1$ be i.i.d. Consider $S=S(X_1,\dots,X_{n-1})$. Now let
+\begin{align*}
+S_i=S(X_1,\dots,X_{i-1},X_{i+1},\dots, X_n)
+\end{align*}
+So $S=S_n$. If $S$ has finite variance, then the Jackknife estimate of its variance is given by:
+\begin{align*}
+\var_{JACK}(S)=\sum_i\left(S_i-\frac{\sum_j S_j}{n}\right)^2
+\end{align*}
+In Efron and Stein's Annals of Statistics paper in 1981 the following remarkable result was proven.
+\begin{align}\label{eq:ES}
+\var(S)\leq E\left(\var_{JACK}(S)\right)
+\end{align}
+This is what we will prove here today. First define $V_i=E[S|X_1,\dots,X_i]-E[S|X_1,\dots,X_{i-1}]$. 
+\begin{enumerate}
+	\item Prove that $\var(S)=\sum_{i=1}^{n-1} E V_i^2$
+	\item Prove that $E\var_{JACK}(S)=(n-1)E[(S_1-S_2)^2]/2$
+	\item Now prove Eq~\ref{eq:ES}.
+\end{enumerate}
+\item In this question we will look at the Gaussian Lipschitz theorem. Consider $X_1,\dots, X_n\stackrel{iid}{\sim} N(0,1)$. 
+\begin{enumerate}
+	\item Prove that the order statistics are 1-Lipschitz.  %of $n$ iid $N(0,1)$ random variables.
+	\item Now show that, for large enough $n$, 
+	$$c\sqrt{\log n} \leq E[\max_i X_i]\leq \sqrt{2\log n}$$
+where $c$ is some universal constant. 
+\begin{enumerate}
+	\item For the upper bound, let $Y=\max_i X_i$. First show that $\exp(tE[Y])\leq \sum_i E\exp (tX_i)$. Now pick a $t$ to get the right form.
+	\item For the lower bound,  do the following steps.
+	\begin{enumerate}
+		\item Show that $E[Y]\geq \delta P(Y\geq \delta)+E[\min(Y,0)]$
+		\item Now show that $E[\min(Y,0)]\geq E[\min(X_1,0)]$
+		\item Finally, relate $P(Y\geq \delta)$ to $P(X_1\geq \delta)$ by using independence.
+		\item  Now show that $P(X_1\geq \delta)\geq \exp(-\delta^2/\sigma^2)/c$, for some universal constant $c$.
+		\item Choose the parameter $\delta$ carefully to have $P(X_1\geq \delta)\geq 1/n$, for large enough $n$. 
+	\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+\iffalse
+\item Consider an i.i.d. sample of size $n$ from a discrete distribution parametrized by $p_1,\dots, p_{m-1}$  on $m$ atoms. A common test for uniformity of the distribution is to look at the fraction of pairs that collide, or are equal. Call this statistic $U$.
+\begin{enumerate}
+%	\item What is the variance of $U$?
+	\item Is $U$ a U statistic? When is it degenerate?
+		\item What is the variance of $U$? Please give the exact answer, without approximation. 
+	\item For a hypothesis test, we will consider alternative distributions which have $p_i=\frac{1+a}{m}$ for half of the atoms in the distribution and $\frac{1-a}{m}$ for the other half ($0\le a\le 1$), for some $a>0$. Assume that there are an even number of atoms. (Hint: think of this as a multinomial distribution.)%Under the alternative, what is the asymptotic distribution of the statistic $U$?
+	\begin{enumerate}
+		\item What are the mean and variance of this statistic under the null?
+		\item What are the mean and variance of this under the alternative?
+		\item What is the asymptotic distribution of $U$ under the null hypothesis that $p_i=1/m$? \textit{Hint: you can use the fact that for $X_1,\dots, X_N\stackrel{i.i.d}{\sim} multinomial(q_1,\dots,q_k)$, $\sum_{i=1}^k (N_i-Nq_i)^2/Nq_i\stackrel{d}{\rightarrow} \chi^2_{k-1}$, where $N_i$ is the number of datapoints with value $i$.}
+		\item Under the alternative hypothesis,is it always the case that $U$ has a limiting normal distribution? Can you give a sufficient condition on the number of atoms $m$  so that this is true?  
+		\textit{Hint: Your variance will have two parts, and when the first one (with $1/n$ dependence on $n$) dominates the second (with $1/n^2$ dependence on $n$), you have a normal convergence. Typically, if $m$ is small, the first one will dominate, however, it is possible that $m$ is very large, in so you need $n$ to be sufficiently large for the first term to dominate the second. }
+		%\item Write down the probability of accepting the null hypothesis (which is $p_i=1/m$, for all $i$), when in fact the underlying distribution if coming from the non-uniform distribution parametrized by $a$ described above.
+		%\item How big does $n$ and $a$ have to be so that the above probability to be smaller than some small fraction $\delta$? To be concrete, provide a lower bound on $n$ in terms of $m,\ \delta$ and $\epsilon$.
+		\end{enumerate}
+\end{enumerate}
+\fi
+%\begin{enumerate}%\item Read Bertsekas and Tsitsiklis, sections 1.1, 1.2 and 1.3.
+	%\section{Jeffrey's prior}
+	%\begin{enumerate}
+	%\end{enumerate}
+	
+	\item Let $\mathcal{P}$ be the set of all distributions on the real line with finite first moment. Show
+	that there does not exist a function $f(x)$ such that $Ef(X) = \mu^2$ for all $P\in \mathcal{P}$ where $\mu$
+	is the mean of $P$, and $X$ is a random variable with distribution $P$.
+	
+	\item Let $g_1$ and $g_2$ be estimable parameters within $\mathcal{P}$ with respective degrees $m_1$ and $m_2$.
+	\begin{enumerate}
+		\item Show $g_1 + g_2$ is an estimable parameter with degree $\leq  \max(m_1, m_2)$. 
+		\item  Show
+		$g_1 g_2$ is an estimable parameter with degree at most $m_1 + m_2$.
+	\end{enumerate}
+\item A continuous distribution with CDF $F(x)$, on the real line is symmetric about the origin if,
+and only if, $1 - F(x) = F(-x)$ for all real $x$. This suggests using the parameter,
+\begin{align}
+\theta(F)&=\int(1-F(x)-F(-x))^2dF(x)\\
+&=\int((1-F(-x))^2dF(x)-2\int(1-F(-x))F(x)dF(x)+\int F(x)^2dF(x)
+\end{align}
+as a nonparametric measure of how asymmetric the distribution is. Find a kernel $h$, of degree
+$3$, such that $E_F h(X_1, X_2, X_3) = \theta(F)$ for all continuous $F$. Find the corresponding U statistic.
+\end{enumerate}
+\end{document} 
