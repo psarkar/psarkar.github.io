@@ -60,7 +60,7 @@ While measure theory is not a pre-requisite for this class, you can use Peter Ho
 <span style="font-weight: bold;">01/26,28 </span>: More stochastic convergence <a href="SDS384/lecture2-ps.pdf"> [Slides]. </a> Chapter 2 Van-der-vaart<br /><br />
     <span style="font-weight: bold;">02/1 </span>: HW1 is posted <a href="SDS384/hw1.pdf"> [here]. </a> Latex file <a href="SDS384/hw1.tex"> [here]. </a> Solutions <a href="SDS384/hw1-sol.pdf"> [here (thanks to Shentao Yang)]. </a><br /><br />
     
-<!---
+
    <span style="font-weight: bold;">01/28 </span>: Concentration inequalities I<a href="SDS384/lecture3-ps.pdf"> [Slides]. </a> <br /><br />
 
     <span style="font-weight: bold;"> Reading </span>: Martin's book chapter on concentration inequalities  <a href="https://www.stat.berkeley.edu/~mjwain/stat210b/Chap2_TailBounds_Jan22_2015.pdf"> [here]. </a> <br/><br/>
@@ -73,7 +73,7 @@ While measure theory is not a pre-requisite for this class, you can use Peter Ho
      
     <span style="font-weight: bold;">02/9,11 </span>: Concentration inequalities III<a href="SDS384/lecture5-ps.pdf"> [Slides]. </a> <br /><br />
 <span style="font-weight: bold;">03/2 </span>: Concentration inequalities IV<a href="SDS384/lecture6-ps.pdf"> [Slides]. </a> <br /><br />
-<span style="font-weight: bold;">03/10 </span>: HW2 is posted <a href="SDS384/hw2.pdf"> [here]. </a> Latex file <a href="SDS384/hw2.tex"> [here]. </a>  <!---Solutions are <a href="SDS384/hw2-sol.pdf"> [here]. </a> Thanks to Qiaohui Lin.<br /><br />--->
+<span style="font-weight: bold;">03/10 </span>: HW2 is posted <a href="SDS384/hw2.pdf"> [here]. </a> Latex file <a href="SDS384/hw2.tex"> [here]. </a>  Solutions are <a href="SDS384/hw2-sol.pdf"> [here]. </a> 
           <br/><br/>
 <span style="font-weight: bold;">03/17,19 </span>: Concentration inequalities V<a href="SDS384/lecture7-ps.pdf"> [Slides]. </a> <br /><br />
     <span style="font-weight: bold;">03/19,24 </span>: Efron-Stein inequality<a href="SDS384/lecture7a.pdf"> [Slides]. </a> <br /><br />
@@ -97,16 +97,21 @@ While measure theory is not a pre-requisite for this class, you can use Peter Ho
     <span style="font-weight: bold;">03/29 </span>: HW3 is posted <a href="SDS384/HW3.pdf"> [here]. </a> Latex file <a href="SDS384/HW3.tex"> [here]. </a><br/><br />
 
    
-    <span style="font-weight: bold;">03/9 </span>: Uniform Law of Large Numbers <a href="SDS384/lecture11-ps.pdf"> [here]. </a> <br /><br />
-<span style="font-weight: bold;">03/30 </span>: Uniform Law of Large Numbers II <a href="SDS384/lecture12-ps.pdf"> [here]. </a> <br /><br />
+    <span style="font-weight: bold;">03/9 </span>: Uniform Law of Large Numbers (Intro) <a href="SDS384/lecture11-ps.pdf"> [here]. </a> <br /><br />
+<span style="font-weight: bold;">03/30 </span>: Uniform Law of Large Numbers II (Symmetrization, Rademacher complexity) <a href="SDS384/lecture12-ps.pdf"> [here]. </a> <br /><br />
+<span style="font-weight: bold;">03/30 </span>: Uniform Law of Large Numbers III (VC dimension, Sauer's Lemma) <a href="SDS384/lecture13-ps.pdf"> [here]. </a> <br /><br />
+<span style="font-weight: bold;">03/30 </span>: Uniform Law of Large Numbers IV (Covering number, packing number) <a href="SDS384/lecture14-ps.pdf"> [here]. </a> <br /><br />
     <!---<span style="font-weight: bold;">03/30 </span>: Uniform Law of Large Numbers II for class with pauses and empty slides <a href="SDS384/lecture12-ps-inc.pdf"> [here]   </a> and complete <a href="SDS384/lecture12-ps.pdf"> [here]. </a> <br /><br />
 <!---    <span style="font-weight: bold;">03/ </span>: HW3 is posted <a href="SDS384/HW3.pdf"> [here]. </a> Solutions are <a href="SDS384/hw3-sol-2.pdf"> [here]. </a> <br /><br />
    <span style="font-weight: bold;">04/1 </span>: Uniform Law of Large Numbers III with lots of pauses <a href="SDS384/lecture13-ps-inc.pdf"> [here] </a>and without <a href="SDS384/lecture13-ps.pdf"> [here]. </a> <br /><br />
 
  <span style="font-weight: bold;">04/10 </span>: Uniform Law of Large Numbers IV with lots of pauses <a href="SDS384/lecture14-ps-inc.pdf"> [here] </a>and withou\
-t <a href="SDS384/lecture14-ps.pdf"> [here]. </a> <br /><br />
-<span style="font-weight: bold;">03/26 </span>: HW4 is posted <a href="SDS384/HW4.pdf"> [here]. </a> Tex file <a href="SDS384/HW4.tex"> [here]. </a> Solution are <a href="SDS384/hw4-sol.pdf"> [here]. </a>  <br /><br />
-     
+t <a href="SDS384/lecture14-ps.pdf"> [here]. </a> <br /><br />-->
+<span style="font-weight: bold;">03/26 </span>: HW4 is posted <a href="SDS384/HW4.pdf"> [here]. </a> Tex file <a href="SDS384/HW4.tex"> [here]. </a>
+<br /><br />
+
+<!---</a> Solution are <a href="SDS384/hw4-sol.pdf"> [here]. </a>  <br /><br />
+     <!---
     <span style="font-weight: bold;">04/15 </span>: Uniform Law of Large Numbers IV with lots of pauses <a href="SDS384/lecture15-ps-inc.pdf"> [here]. </a> and without  <a href="SDS384/lecture15-ps.pdf"> [here]. </a><br /><br />
 <!--    <span style="font-weight: bold;">04/16 </span>: HW5 is posted and a hint has been added. <a href="SDS384/hw5.pdf"> [here]. </a>Solutions will be <a href="SDS384/hw5-sol.pdf"> [here]. </a><br /><br /> <br />-->
    <!---<span style="font-weight: bold;">Reading  </span>: Martin's book chapter 4 and 5 <br /><br />
