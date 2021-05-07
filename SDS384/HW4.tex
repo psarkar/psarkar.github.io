@@ -68,19 +68,23 @@
 		%\item How big does $n$ and $a$ have to be so that the above probability to be smaller than some small fraction $\delta$? To be concrete, provide a lower bound on $n$ in terms of $m,\ \delta$ and $\epsilon$.
 	\end{enumerate}
 \end{enumerate}
- \item (VC dimension) Compute the VC dimension of the following function classes
+ \item (VC dimension) Compute the VC dimension of the following function classes. You can take it as everything on or inside the shape is +ve.
 \begin{enumerate}
-	\item Circles in $\R^2$
+	\item Circles in $\R^2$ 
 	\item Axis aligned rectangles in $\R^2$
 	\item Axis aligned squares in $\R^2$
 \end{enumerate}
-\item We will find the covering number of ellipses in this problem.  Given a collection of positive numbers $\{\mu_j,j=1\dots d\}$, consider the ellipse $$\mathcal{E}=\{\theta\in\R^d : \sum_i \theta_i^2/\mu_i^2\leq 1\}$$
+\item We will find the covering number of ellipses in this problem.  Given a collection of positive numbers $\{\mu_j,j=1\dots d\}$, consider the ellipse \begin{align}\label{eq:ell}
+\mathcal{E}=\{\theta\in\R^d : \sum_i \theta_i^2/\mu_i^2\leq 1\}
+\end{align}
 \begin{enumerate}
 	\item Show that $$\log N(\epsilon; \mathcal{E},\|.\|_2)\geq d\log (1/\epsilon)+\sum_{j=1}^d\log \mu_j$$
+	\textit{Hint: you can use the fact that the volume of the Ellipse defined in Eq~\ref{eq:ell} is given by $\prod_{i=1}^d \mu_i \times C_d$ where $C_d$ is the volume of an unit sphere in $d$ dimensions. Extra credit for proving this! All you have to do is a simple substitution!}
 	\item Now consider an infinite-dimensional ellipse, specified by the sequence $\mu_j = j^{-2\beta}$
 	for some parameter $\beta > 1/2$. Show that
 	$$\log N(\epsilon; \mathcal{E},\|.\|_2)\geq C \left(\frac{1}{\epsilon}\right)^{1/2\beta},$$
-	where $\|\theta-\theta'\|_{\ell_2}^2=\sum_{j=1}^\infty (\theta_i-\theta_j)^2$ is the squared $\ell_2$-norm on the space of square summable sequences.
+	where $\|\theta-\theta'\|_{\ell_2}^2=\sum_{j=1}^\infty (\theta_i-\theta'_i)^2$ is the squared $\ell_2$-norm on the space of square summable sequences.
+	\textit{Hint: This is going to involve a truncation argument. Truncate at $d$ dimension, and obtain a relationship of the original covering number with the covering number of the truncated ellipse. Use your earlier result for $d$ and then optimize over $d$. }
 \end{enumerate}
 \end{enumerate}
 \end{document} 
