@@ -53,8 +53,8 @@
 <h2><a name="3"></a>SDS 385: Statistics Models for Big Data</h2>
     <br />
 
-<span style="font-weight: bold;">08/25 </span>: Syllabus, and introduction <a href="SDS385/lecture1-ps.pdf"> [Slides]. </a> Exam <a href="SDS385/exam.pdf"> [Here]. </a> </a> Exam solutions <a href="SDS385/exam_sol.pdf"> [Here]. </a> <br /><br/>
-<span style="font-weight: bold;">08/31 </span>: Linear regression <a href="SDS385/lecture2-ps.pdf"> [Slides]. </a> <br /><br/>
+<span style="font-weight: bold;">08/25 </span>: Syllabus <a href="SDS385/syllabus21.pdf"> [here]. <!---</a> Exam <a href="SDS385/exam.pdf"> [Here]. </a> </a> Exam solutions <a href="SDS385/exam_sol.pdf"> [Here]. </a> <br /><br/>
+<!---<span style="font-weight: bold;">08/31 </span>: Linear regression <a href="SDS385/lecture2-ps.pdf"> [Slides]. </a> <br /><br/>
     <span style="font-weight: bold;">09/2 </span>: Gradient Descent and Newton Raphson <a href="SDS385/lecture2-ps.pdf"> [Slides]. </a> <br /><br/>
    <span style="font-weight: bold;">09/9 </span>: Stochastic Gradient Descent <a href="SDS385/lecture3-ps.pdf"> [Slides]. </a> <br /><br/>
     <span style="font-weight: bold;">09/13 </span>: HW1 is out <a href="SDS385/HW1.pdf"> [here]. </a> Latex file is <a href="SDS385/HW1.tex"> [here].  </a> Dataset here <a href="SDS385/logistic_regression.zip"> [here]. </a> Solutions are  <a href="SDS385/HW1-sol.pdf"> [here]. </a> and <a href="SDS385/sds385_hw1_lr_yx.html"> [here]. </a> <br /><br/>
@@ -64,7 +64,7 @@
    <span style="font-weight: bold;">Reading </span>: Nesterov's accelerated gradient vs Polyak's momentum <a href="http://proceedings.mlr.press/v28/sutskever13.pdf">here </a>.<br /><br/>
   <!---<span style="font-weight: bold;">09/23 </span>: HW1 is out <a href="SDS385/HW1.pdf"> [here]. </a> Latex file is <a href="SDS385/HW1.tex"> [here]. </a> Please download the dataset from the Canvas page. Solutions are  <a href="SDS385/SDS_385_HW1.pdf"> [here]. </a> and <a href="SDS385/sds385_hw1_lr_yx.html"> [here] (Thanks to Gail!!). </a> <br /><br/>--->
   <!---  <span style="font-weight: bold;">09/24 </span>: Momentum methods and Subgradients <a href="SDS385/lecture4-ps.pdf"> [Slides]. </a> <br/><br/>--->
-    <span style="font-weight: bold;">Reading </span>: Stephen Boyd's notes. <a href="https://web.stanford.edu/class/ee364b/lectures/subgrad_method_notes.pdf">here </a>.<br /><br/>
+    <!---<span style="font-weight: bold;">Reading </span>: Stephen Boyd's notes. <a href="https://web.stanford.edu/class/ee364b/lectures/subgrad_method_notes.pdf">here </a>.<br /><br/>
      <span style="font-weight: bold;">09/24 </span>: Proximal methods <a href="SDS385/lecture5-ps.pdf"> [Slides]. </a> <br/><br/>
 <span style="font-weight: bold;">09/24 </span>: Duality <a href="SDS385/duality.pdf"> [Slides]. </a> <br/><br/>
      <span style="font-weight: bold;">Reading </span>: A note on optimization and duality <a href="https://www-cs.stanford.edu/people/davidknowles/lagrangian_duality.pdf"> [Here]. </a> <br/><br/>
@@ -75,7 +75,7 @@
      <span style="font-weight: bold;">10/8,10 </span>: Large scale SVM optimization<a href="SDS385/lecture6-ps.pdf"> [Slides]. </a> <br/><br/>
      <!---<span style="font-weight: bold;">10/10 </span>: Project details are <a href="SDS385/projects_updated1.htm"> [out]. </a> <br/><br/>--->
    
-    <span style="font-weight: bold;">10/15 </span>: Approximate nearest neighbors-minhashing<a href="SDS385/lecture7-ps.pdf"> [Slides]. </a> <br/><br/>
+    <!---<span style="font-weight: bold;">10/15 </span>: Approximate nearest neighbors-minhashing<a href="SDS385/lecture7-ps.pdf"> [Slides]. </a> <br/><br/>
 
     <span style="font-weight: bold;">10/22 </span>: Approximate nearest neighbors-LSH<a href="SDS385/lecture8-ps.pdf"> [Slides]. </a> <br/><br/>
     <span style="font-weight: bold;">Reading </span>: The Mining of Massive Datasets book-Chapter 3. <a href="http://www.mmds.org/#book">here </a>.<br /><br/>
@@ -84,7 +84,7 @@
     <span style="font-weight: bold;">10/27 </span>: HW2 is out <a href="SDS385/HW2.pdf"> [here]. </a> Latex file is <a href="SDS385/HW2.tex"> [here]. </a> Solution pdf is <a href="SDS385/HW2-sol.pdf"> [here]</a> <!---, hashing bit is <a href="SDS385/p4_hash.html"> here </a>, and denoising with lasso penalty is <a href="p1_fused_lasso.html"> here </a>  <br /><br/>
     <!---<span style="font-weight: bold;">10/25 </span>: Practice problems<a href="SDS385/practice_problems.pdf"> [Here]. </a> <br/><br/>
     -->
-<br/><br/>
+<!---<br/><br/>
 <span style="font-weight: bold;">10/27 </span>: KD trees<a href="SDS385/kdtrees.pdf"> [Here]. </a> <br/><br/>
 
 <span style="font-weight: bold;">11/06 </span>: PCA and LDA  <a href="SDS385/dimreduction.pdf"> [Here]. </a> <br/><br/>
@@ -99,7 +99,7 @@ Solutions are <a href="SDS385/HW3-sol.pdf"> [here] </a>  <br /><br/>
 <span style="font-weight: bold;">10/27 </span>: K-means with Map reduce <a href="https://stanford.edu/~rezab/classes/cme323/S16/projects_reports/bodoia.pdf"> [Here]. </a> <br/><br/>
 -->
 
-<span style="font-weight: bold;">11/04 </span>: More Map-reduce <a href="SDS385/mapreduce.pdf"> [Here]. </a> <br/><br/>
+<!---<span style="font-weight: bold;">11/04 </span>: More Map-reduce <a href="SDS385/mapreduce.pdf"> [Here]. </a> <br/><br/>
 
 <!---
     <span style="font-weight: bold;">11/04 </span>: Distributed computing - PODC tutorial<a href="https://www.podc.org/data/podc2018/podc2018-tutorial-alistarh.pdf"> [Here]. </a>
