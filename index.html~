@@ -63,14 +63,14 @@
 
 
 <p class="MsoNormal"> I am an assistant professor of  <a href="https://stat.utexas.edu/"> Statistics </a> at the University of Texas at Austin . My interests are in the  intersection
-of asymptotic statistics, scalable algorithms and networks. My email address is purna.sarkar@austin.utexas.edu.</p>
+of asymptotic statistics, scalable algorithms, networks and resampling methods for networks. My email address is purna.sarkar@austin.utexas.edu. Here is my <a href="sarkar_CV.pdf">CV</a>.</p>
 
 <p class="MsoNormal">
 Previously I was a postdoctoral scholar at the University of California, Berkeley, where 
 I worked on asymptotic theory for network models and the nonparametric bootstrap for big data. 
 
 I got my PhD from the <a href="http://www.ml.cmu.edu/">Machine
-Learning Department</a> at Carnegie Mellon University.
+Learning Department</a> at Carnegie Mellon University. 
   My thesis research has been aimed at analyzing theoretical properties of
 different proximity measures arising from random walks, and using them for designing fast algorithms. Here is a link to my <a href="http://www.cs.cmu.edu/%7Epsarkar/thesis/sarkar_thesis.pdf">thesis</a>.
 
