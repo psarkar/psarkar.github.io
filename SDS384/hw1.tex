@@ -1,0 +1,97 @@
+\documentclass[11pt]{article}
+\usepackage[left=1.25in,top=1in,right=1.25in,bottom=1.00in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{amsbsy}
+\usepackage{amsthm}
+\usepackage{hyperref}
+
+\usepackage{epsfig}
+\usepackage{color}
+\usepackage[round]{natbib}
+\usepackage{multirow} 
+\newcommand{\logit}{\mbox{logit}}
+\newcommand{\probit}{\mbox{probit}}
+\newcommand{\hiw}{{\small\textsc{HIW}}}
+\newcommand{\iw}{{\small\textsc{IW}}}
+\newcommand{\N}{\mbox{N}}
+\newcommand{\Be}{\mbox{Be}}
+\newcommand{\dd}{\mbox{d}}
+\newcommand{\C}{\; | \;}
+\newcommand{\var}{\text{var}}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\newenvironment{definition}[1][Definition]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{example}[1][Example]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{remark}[1][Remark]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+
+
+
+
+\begin{document}
+
+\title{{\bf Homework Assignment 1}\\Due via canvas Feb 11th}
+\author{SDS 384-11 Theoretical Statistics\\Please \textbf{do not} add your name to the HW submission.}
+
+\date{}
+
+\maketitle{}
+%\textbf{Set algebra and probability laws.}
+\begin{enumerate}%\item Read Bertsekas and Tsitsiklis, sections 1.1, 1.2 and 1.3.
+%\section{Jeffrey's prior}
+%\begin{enumerate}
+%\end{enumerate}
+%\item	Given densities $p_n$ and $q_n$ with respect to some measure $\mu$, let $X$ be distributed according to the distribution with density $p_n$. Define the likelihood ratio $L_n(X)$ as $L_n(X) = q_n(X)/p_n(X)$ for $p_n(X) > 0$. $L_n(X) = 1$. if $p_n(X) = q_n(X) = 0$ and $L_n(X) = \infty$ otherwise. Show that the likelihood ratio is a uniformly tight sequence.
+
+\item (1+3+(1+1+2) pts) We will do some examples of convergence in distribution and convergence in probability here.
+\begin{enumerate}
+	\item Let $X_n\sim N(0,1/n)$. Does $X_n\stackrel{d}{\rightarrow} 0$?
+	\item  Let $\{X_n\}$ be independent r.v's such that $P(X_n=n^\alpha)=1/n$ and $P(X_n=0)=1-1/n$ for $n\geq 1$, where $\alpha\in (-\infty,\infty)$ is a constant. For what values of $\alpha$, will you have $X_n\stackrel{q.m}{\rightarrow} 0$? For what values will you have $X_n\stackrel{p}{\rightarrow} 0$?
+	\item Consider the average of $n$ i.i.d random variables $X_1,\dots, X_n$ with $E[X_1]=\mu$ and $E[|X_1|]< \infty$. Write true or false. Explain.
+	\begin{enumerate}
+		\item $\bar{X}_n=o_P(1)$
+		\item $\exp(\bar{X}_n-\mu) =o_P(1)$
+		\item $(\bar{X}_n-\mu)^2 =O_P(1/n)$
+	%	\item $(\bar{X}_n-\mu)^2 =O_P(1/n)$
+	\end{enumerate}
+		
+	
+\end{enumerate}
+\item (8 pts) Consider random variables $X_1,\dots, X_n$ be IID r.v's with mean $\mu$ and variance $\sigma^2:=\var(X_i)$.  We will use the following statistic to estimate $\theta=\mu^2$.
+\begin{align*}
+\hat{\theta}=\frac{1}{{n\choose 2}}\sum_{i<j}X_iX_j
+\end{align*}
+\begin{enumerate}
+	\item Find constants $C_1,C_2$ where 
+	\begin{align*}
+	\hat{\theta}-\mu^2=\frac{C_1}{{n\choose 2}}\sum_{i<j}(X_i-\mu)(X_j-\mu)+\frac{C_2\mu}{n}\sum_{i}(X_i-\mu)
+	\end{align*}
+	\item Show that  the first term is $O_P(1/n)$ and the second term is $O_P(1/\sqrt{n})$. %\textit{You can use CLT of $\bar{X}_n$}
+	\item Argue that $\hat{\theta}\stackrel{P}{\rightarrow}\mu^2$.
+\end{enumerate}
+\item (8 pts) If $X_n\stackrel{d}{\rightarrow} X\sim Poisson(\lambda)$, is it necessarily true that $E[g(X_n)]\rightarrow E[g(X)]$?
+\begin{enumerate}
+	\item $g(x)=1(x\in (0,10))$
+	\item $g(x)=e^{-x^2}$
+	\item $g(x)=sgn(cos(x))$ [$sgn(x)=1$ if $x>0$, $-1$ if $x<0$ and $0$ if $x=0$.]
+	\item $g(x)=x$
+\end{enumerate}
+
+\item (6 pts) Let $X_1,\dots, X_n$ be independent r.v's with mean zero and variance $\sigma_i^2:=E[X_i^2]$ and $s_n^2=\sum_i\sigma_i^2$. If $\exists\delta>0$ s.t. as $n\rightarrow\infty$,
+$$\frac{\sum_i E|X_i|^{2+\delta}}{s_n^{2+\delta}}\rightarrow 0,$$
+then $\sum_i X_i/s_n$ converges weakly to the standard normal.
+
+%\item The following inequality bounds the worst case error that may be made using a Poisson Approximation. It is also known as Le Cam's inequality. Let $X_1,\dots, X_n$ be i.i.d Bernoulli R.V.'s with $P(X_i=1)=p_i$. Let $S_n=\sum_i X_i$ and let $\lambda=\sum_i p_i$, and let $Z$ be an R.V. with the Poisson($\lambda$) distribution, i.e. $\mathcal{P}(\lambda)$. Show that for all sets $A$,
+%$$|P(S_n\in A)-P(Z\in A)|\leq \sum_i p_i^2.$$
+
+%\textit{Hint: We will prove this using a coupling argument, i.e. we will use a construction which defines $S_n$ and $Z$ to be on the same probability space, so that they are close. Let $U_\sim Uniform(0,1)$ be i.i.d uniform R.V.'s. Now let $X_i=1(U_i\geq 1-p_i)$. Now let $Y_i=0$ if $U_i< e^{-p_i} $. Construct the rest of $Y_i$'s PMF using $U_i$ such that $Y_i\sim \mathcal{P}(p_i)$. Now show $|P(S_n\in A)-P(Z\in A)|\leq \sum_i P(X_i\neq Y_i)$. Finish the rest of the proof.} 
+%\item Consider $r$ balls 
+%\item Consider $n$ i.i.d random variables $\{X_n\}$ uniformly distributed on the set of $n$ points $\{1/n,2/n,\dots,1\}$. Show that $X_n\stackrel{d}{\rightarrow} X$ where $X\sim Uniform(0,1)$. Does $X_n\stackrel{P}{\rightarrow}X$?
+\end{enumerate}
+\end{document} 
