@@ -78,11 +78,36 @@ Currently I am working on computing nearest neighbors in large disk-resident gra
        <br /><br >
 
 
-    <span style="color: rgb(0, 0, 0);">&nbsp;</span><a href="nips_2018_mf_surface.pdf"><span style="font-weight: bold;">Bootstrapping the error of Oja’s algorithm. 
+
+
+    <span style="color: rgb(0, 0, 0);">&nbsp;</span><a href="https://arxiv.org/pdf/1912.07546"><span style="font-weight: bold;">
+Subsampling Sparse Graphons Under Minimal Assumptions
+    </span></a>
+<br />(Robert Lunde, Purnamrita Sarkar)
+<br /><br />
+&nbsp; &nbsp;&nbsp; &nbsp; - A simple spectral algorithm for clustering in the presence of arbitrary outliers, which matches the best known bound for SDPs under the same setting without outiers.
+<br /><br />
+&nbsp; &nbsp;&nbsp; &nbsp; - Operations Research, 2022. Forthcoming. 
+   <br /><br />
+
+
+    <span style="color: rgb(0, 0, 0);">&nbsp;</span><a href="https://arxiv.org/pdf/1912.07546"><span style="font-weight: bold;">
+A Robust Spectral Clustering Algorithm for Sub-Gaussian Mixture Models with Outliers 
+    </span></a>
+<br />(Prateek R. Srivastava, Purnamrita Sarkar, Grani A. Hanasusanto)
+<br /><br />
+&nbsp; &nbsp;&nbsp; &nbsp; - A simple spectral algorithm for clustering in the presence of arbitrary outliers, which matches the best known bound for SDPs under the same setting without outiers.
+<br /><br />
+&nbsp; &nbsp;&nbsp; &nbsp; - Operations Research, 2022. Forthcoming. 
+   <br /><br />
+
+
+
+    <span style="color: rgb(0, 0, 0);">&nbsp;</span><a href="https://openreview.net/forum?id=GPwmbxtG9Ow"><span style="font-weight: bold;">Bootstrapping the error of Oja’s algorithm. 
     </span></a>
 <br />(Robert Lunde, Purnamrita Sarkar, Rachel Ward)
 <br /><br />
-&nbsp; &nbsp;&nbsp; &nbsp; - An limiting distribution for the error of Oja's algorithm and an online bootstrap method for estimating the distribution.
+&nbsp; &nbsp;&nbsp; &nbsp; - A limiting distribution for the error of Oja's algorithm and an online bootstrap method for estimating the distribution.
 <br /><br />
 &nbsp; &nbsp;&nbsp; &nbsp; - NeurIPS 2021. Spotlight. 
    <br /><br />
